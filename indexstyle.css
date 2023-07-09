@@ -23,7 +23,7 @@
     --primary-red-color: #db0d15;
     --header-text-color: #fff;
     --white-text-color: #fff;
-    --primary-font: Metropolis;
+    --primary-font: "Metropolis Bold";
     --primary-text-font-size: 16px;
     --banner-text-font-size: 30px;
 
@@ -46,7 +46,23 @@ header {
 .logo-and-navbar {
     display: flex;
     justify-content: space-between;
-    padding: 7.5vw 2vw;
+    padding: 5vw 1vw;
+}
+
+.logo-and-navbar img {
+    width: 60vw;
+    height: 65px;
+    padding: 0 1vw;
+    margin-left: -10px;
+}
+
+.hamburger-btn {
+    height: 47px;
+}
+
+button#hamburgerBtn {
+    background: none;
+    margin-top: 5vw;
 }
 
 .nav-pages-header {
@@ -65,12 +81,16 @@ header {
     left: 0;
     width: 100%;
     margin-top: 2vw;
-
 }
 
 .nav-pages a {
     color: var(--header-text-color);
 
+}
+
+.socmed-nav a svg {
+    height: 1.8vh;
+    width: 3.25vw;
 }
 
 .dropdown-content {
@@ -110,21 +130,38 @@ header {
     align-items: center;
 }
 
-.socmed-nav a svg {
-    height: 10px;
-    width: 10px;
+.side-job-offer {
+    position: fixed;
+    top: 51.5vh;
+    width: 50vw;
+    right: -29.8vw;
+    background-color: var(--primary-red-color);
+    padding: 1.5vh 0 1.5vh 7vw;
+    border-radius: 55px 0 0 55px;
+}
+.side-job-offer:hover {
+    right: 0;
+    transition: 1s ease-in-out;
 }
 
-button#hamburgerBtn {
-    background: none;
+.side-job-offer a {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5vw;
+    color: var(--white-text-color);
+    font-family: Metropolis;
 }
 
-.down-arrow {
-    /* align-self: flex-end; */
-    animation-duration: 4s;
-    animation-iteration-count: infinite;
-    animation-name: bounce;
-    animation-timing-function: linear;
+.side-job-offer img {
+    width: 10vw;
+    height: 7vh;
+
+}
+
+.job-offer-link{
+    display: flex;
+    flex-direction: column;
 }
 
 .banner {
@@ -133,15 +170,22 @@ button#hamburgerBtn {
     flex-direction: column;
     align-items: center;
     font-size: var(--banner-text-font-size);
-    gap: 10vh;
-    padding: 10vh 2vw;
+    gap: 2vh;
+    padding: 7vh 2vw;
+}
+
+.banner img {
+    width: 80vw;
+    height: 28.5vh;
 }
 
 .banner-intro {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 1vh;
+    font-weight: 1000;
+    letter-spacing: 1vw;
+    text-transform: uppercase;
 }
 
 .banner video {
@@ -149,11 +193,28 @@ button#hamburgerBtn {
     left: 0;
     position: absolute;
     width: 100%;
-    height: 80vh;
+    height: 100vh;
     object-fit: cover;
     object-position: center;
     z-index: -1;
 }
+
+.banner .down-arrow img {
+    width: 12.5vw;
+    height: 6.15vh;
+    margin-top: 5vh;
+    /* align-self: flex-end; */
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-name: bounce;
+    animation-timing-function: linear;
+}
+
+
+
+
+
+
 
 @keyframes bounce{
     0%{
