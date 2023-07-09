@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    list-style: none;
+    box-sizing: border-box;
+    border: none;
+    text-decoration: none;
+}
+
+@font-face {
+    font-family: Metropolis;
+    src: url(assets/fonts/Metropolis-regular.woff2);
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Metropolis Bold";
+    src: url(assets/fonts/Metropolis-bold.woff2);
+    font-weight: bold;
+    font-display: swap;
+}
+
+:root {
+    --primary-red-color: #db0d15;
+    --header-text-color: #fff;
+    --white-text-color: #fff;
+    --primary-font: Metropolis;
+    --primary-text-font-size: 16px;
+    --banner-text-font-size: 30px;
+
+}
+
+html {
+    font-family: var(--primary-font);
+}
+
+header {
+    background-color: black;
+}
+
+.header-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+}
+
+.logo-and-navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 7.5vw 2vw;
+}
+
+.nav-pages-header {
+    display: none;
+}
+
+.nav-pages.d-none {
+    display: none;
+}
+
+.nav-pages {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--primary-red-color);
+    position: absolute;
+    left: 0;
+    width: 100%;
+    margin-top: 2vw;
+
+}
+
+.nav-pages a {
+    color: var(--header-text-color);
+
+}
+
+.dropdown-content {
+    height: 0;
+    transition: height 5s ease-in-out;
+    position: absolute;
+}
+
+.dropdown-content ul {
+    display: none;
+}
+
+.nav-pages .dropdown:hover {
+    .dropdown-content ul {
+        display: flex;
+        flex-direction: column;
+        gap: 1vw;
+        background-color: var(--primary-red-color);
+    }
+}
+
+.socmed-nav {
+    display: flex;
+    justify-content: center;
+    padding-top: 7.5vw;
+    gap: 2vw;
+}
+
+.socmed-nav a {
+    display: flex;
+    border: 1px solid var(--primary-red-color);
+    border-radius: 20px;
+    height: 25px;
+    width: 25px;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.socmed-nav a svg {
+    height: 10px;
+    width: 10px;
+}
+
+button#hamburgerBtn {
+    background: none;
+}
+
+.down-arrow {
+    /* align-self: flex-end; */
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-name: bounce;
+    animation-timing-function: linear;
+}
+
+.banner {
+    color: var(--white-text-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: var(--banner-text-font-size);
+    gap: 10vh;
+    padding: 10vh 2vw;
+}
+
+.banner-intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1vh;
+}
+
+.banner video {
+    top: 20vh;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    height: 80vh;
+    object-fit: cover;
+    object-position: center;
+    z-index: -1;
+}
+
+@keyframes bounce{
+    0%{
+        transform:translateY(0)
+    }
+    50%{
+        transform:translateY(-20px)
+    }
+    to {
+        transform:translateY(0)
+    }
+}

@@ -1,0 +1,107 @@
+@media screen and (min-width: 768px) {
+    .socmed-nav {
+        justify-content: left;
+        padding: 3vw 0 0 3vw;
+        gap: 2vw;
+    }
+
+    .logo-and-navbar {
+        padding: 3.5vw 2vw;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+
+    :root {
+        --header-text-color: #fff;
+
+    }
+
+    .header-container {
+        flex-direction: column;
+    }
+
+    .logo-and-navbar {
+        padding: 5vw 2vw 1vw 0;
+    }
+    
+    .nav-pages-header {
+        display: flex;
+        justify-content: space-evenly;
+        gap: 3.5vw;
+        padding-right: 5vw;
+        font-size: var(--primary-text-font-size);
+        z-index: 5;
+    }
+
+    .nav-pages-header a {
+        color: var(--header-text-color);
+        transition: color 0.25s;
+    }
+
+    .nav-pages-header a:hover {
+        color: var(--primary-red-color);
+    }
+
+    .nav-pages-header .dropdown:hover {
+        .dropdown-content ul {
+            display: flex;
+            flex-direction: column;
+            gap: 1vw;
+            background-color: var(--primary-red-color);
+        }
+    }
+
+    .dropdown-content {
+        margin-top: 2vw;
+        right: 5vw;
+    }
+    .dropdown-content ul {
+        display: none;
+        background-color: var(--primary-red-color);
+        padding: 2.5vw 2.5vw 2.5vw 2vw;
+        line-height: 2vw;
+        font-size: var(--primary-text-font-size);
+        /* transition: background-color .2s ease-in-out; */
+    }
+
+    .hamburger-btn {
+        display: none;
+    }
+
+    .socmed-nav {
+        justify-content: right;
+        padding: 1.5vw 5vw 3vw 0;
+        gap: 1vw;
+    }
+
+    .socmed-nav a {
+        height: 35px;
+        width: 35px;
+    }
+
+}
+
+@media screen and (min-width: 1440px) {
+
+    :root {
+        --primary-text-font-size: 21px;
+
+    }
+
+    .header-container {
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-evenly;
+        padding: 3vw 2vw;
+    }
+
+    .logo-and-navbar {
+        padding: 0;
+    }
+    
+    .socmed-nav {
+        padding: 0;
+        gap: 1vw;
+    }
+}
