@@ -23,57 +23,56 @@
     --primary-red-color: #db0d15;
     --header-text-color: #fff;
     --white-text-color: #fff;
-    --primary-font: "Metropolis Bold";
     --primary-text-font-size: 16px;
     --banner-text-font-size: 30px;
-
+    --side-text-font-size: 10px;
+    --introduction-font-size: 55px;
+    --button-text-font-size: 14px;
 }
 
-html {
-    font-family: var(--primary-font);
+body {
+    font-family: Metropolis, sans-serif;
 }
 
 header {
     background-color: black;
-}
-
-.header-container {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column-reverse;
 }
 
-.logo-and-navbar {
+header .logo-and-navbar {
     display: flex;
     justify-content: space-between;
     padding: 5vw 1vw;
 }
 
-.logo-and-navbar img {
+header .logo-and-navbar img {
     width: 60vw;
     height: 65px;
     padding: 0 1vw;
     margin-left: -10px;
 }
 
-.hamburger-btn {
+header .hamburger-btn {
     height: 47px;
 }
 
 button#hamburgerBtn {
     background: none;
-    margin-top: 5vw;
+    margin-top: 5.5vw;
 }
 
-.nav-pages-header {
+header .nav-pages-header {
+    display: none;
+    text-transform: uppercase;
+}
+
+header .nav-pages.d-none {
     display: none;
 }
 
-.nav-pages.d-none {
-    display: none;
-}
-
-.nav-pages {
+header .nav-pages {
     display: flex;
     flex-direction: column;
     background-color: var(--primary-red-color);
@@ -83,27 +82,22 @@ button#hamburgerBtn {
     margin-top: 2vw;
 }
 
-.nav-pages a {
+header .nav-pages a {
     color: var(--header-text-color);
 
 }
 
-.socmed-nav a svg {
-    height: 1.8vh;
-    width: 3.25vw;
-}
-
-.dropdown-content {
+header .dropdown-content {
     height: 0;
     transition: height 5s ease-in-out;
     position: absolute;
 }
 
-.dropdown-content ul {
+header .dropdown-content ul {
     display: none;
 }
 
-.nav-pages .dropdown:hover {
+header .nav-pages .dropdown:hover {
     .dropdown-content ul {
         display: flex;
         flex-direction: column;
@@ -112,14 +106,19 @@ button#hamburgerBtn {
     }
 }
 
-.socmed-nav {
+header .socmed-nav a svg {
+    height: 1.8vh;
+    width: 3.25vw;
+}
+
+header .socmed-nav {
     display: flex;
     justify-content: center;
     padding-top: 7.5vw;
     gap: 2vw;
 }
 
-.socmed-nav a {
+header .socmed-nav a {
     display: flex;
     border: 1px solid var(--primary-red-color);
     border-radius: 20px;
@@ -130,7 +129,7 @@ button#hamburgerBtn {
     align-items: center;
 }
 
-.side-job-offer {
+header .side-job-offer {
     position: fixed;
     top: 51.5vh;
     width: 50vw;
@@ -138,33 +137,49 @@ button#hamburgerBtn {
     background-color: var(--primary-red-color);
     padding: 1.5vh 0 1.5vh 7vw;
     border-radius: 55px 0 0 55px;
+    z-index: 5;
 }
-.side-job-offer:hover {
+header .side-job-offer:hover {
     right: 0;
     transition: 1s ease-in-out;
 }
 
-.side-job-offer a {
+header .side-job-offer a {
     display: flex;
     flex-direction: row;
     align-items: center;
     gap: 5vw;
     color: var(--white-text-color);
-    font-family: Metropolis;
+    font-family: "Metropolis Bold";
+    font-size: var(--side-text-font-size);
+    text-transform: uppercase;
 }
 
-.side-job-offer img {
+header .side-job-offer img {
     width: 10vw;
     height: 7vh;
 
 }
 
-.job-offer-link{
+header .side-job-offer .job-offer-link{
     display: flex;
     flex-direction: column;
 }
 
-.banner {
+header .to-top button#toTopBtn {
+    display: none;
+    background: none;
+    position: fixed;
+    bottom: 5.15vh;
+    right: 12vw;
+    cursor: pointer;
+}
+
+header .to-top button#toTopBtn img {
+    width: 12vw;
+}
+
+main .banner {
     color: var(--white-text-color);
     display: flex;
     flex-direction: column;
@@ -174,21 +189,29 @@ button#hamburgerBtn {
     padding: 7vh 2vw;
 }
 
-.banner img {
+main .banner img {
     width: 80vw;
     height: 28.5vh;
 }
 
-.banner-intro {
+main .banner .banner-intro {
     display: flex;
     flex-direction: column;
     align-items: center;
     font-weight: 1000;
     letter-spacing: 1vw;
     text-transform: uppercase;
+    font-family: "Metropolis Bold";
+    padding: 0;
 }
 
-.banner video {
+main .banner .banner-intro h1 {
+    text-align: center;
+    padding: 0 10vw;
+    font-size: var(--banner-text-font-size);
+}
+
+main .banner video {
     top: 20vh;
     left: 0;
     position: absolute;
@@ -199,7 +222,7 @@ button#hamburgerBtn {
     z-index: -1;
 }
 
-.banner .down-arrow img {
+main .banner .down-arrow img {
     width: 12.5vw;
     height: 6.15vh;
     margin-top: 5vh;
@@ -208,11 +231,98 @@ button#hamburgerBtn {
     animation-iteration-count: infinite;
     animation-name: bounce;
     animation-timing-function: linear;
+    cursor: pointer;
 }
 
+main .introduction-container {
+    padding: 25vw 2vw;
+    margin-top: 1vw;
+}
 
+main .introduction-container .left-introduction-container .left-introduction {
+    background-image: url(https://www.cdprojektred.com/build/images/img/home-box-1-b8ecc584.png);
+    opacity: 1.5;
+    width: 100%;
+    height: 35vh;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: rgb(158, 156, 156);
+    background-blend-mode: multiply;
+    padding: 15vw 0;
 
+}
 
+main .introduction-container .right-introduction-container .right-introduction {
+    background-image: url(https://www.cdprojektred.com/build/images/img/home-box-2-fedcea81.png);
+    opacity: 1.5;
+    width: 100%;
+    height: 35vh;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: rgb(158, 156, 156);
+    background-blend-mode: multiply;
+    padding: 15vw 0;
+}
+
+main .introduction-container .introduction-banner {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "Metropolis Bold";
+}
+
+main .introduction-container .introduction-banner h2 {
+    font-size: var(--introduction-font-size);
+    font-weight: 1000;
+    color: transparent;
+    -webkit-text-stroke: 1px #fff;
+}
+main .introduction-container .introduction-banner .introduction-links-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5vw;
+    height: 10vw;
+    padding: 4vw 5vw;
+}
+
+main .introduction-container .introduction-banner .introduction-links-container a {
+    color: var(--white-text-color);
+    font-size: var(--button-text-font-size);
+    border: 2px solid var(--primary-red-color);
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 35vw;
+    height: 8vh;
+    padding: 2vw 2vw;
+
+}   
+
+main .introduction-container .introduction-text {
+    display: flex;
+    flex-direction: column;
+    gap: 3vw;
+    padding: 5vh 7.5vw;
+    text-align: center;
+    
+}
+
+main .introduction-container .introduction-text h3 {
+    font-family: "Metropolis Bold";
+    font-weight: 600;
+    font-size: calc(var(--introduction-font-size) / 2);
+}
+
+main .introduction-container .introduction-text span {
+    color: var(--primary-red-color);
+}
+
+main .introduction-container .introduction-text p {
+    font-size: var(--primary-text-font-size);
+    line-height: 3.5vh;
+    
+}
 
 
 

@@ -1,12 +1,99 @@
 @media screen and (min-width: 768px) {
-    .socmed-nav {
-        justify-content: left;
-        padding: 3vw 0 0 3vw;
-        gap: 2vw;
+    :root {
+        --side-text-font-size: 12px;
     }
 
-    .logo-and-navbar {
-        padding: 3.5vw 2vw;
+    header {
+        padding: 1vw 1vw 1vw;
+    }
+    header .socmed-nav {
+        justify-content: left;
+        padding: 2vw 0 0 3.75vw;
+        gap: 1vw;
+    }
+
+    header .logo-and-navbar {
+        padding: 3vw 1vw 1.5vw 5vw;
+    }
+
+    header .logo-and-navbar img {
+        width: 20vw;
+
+    }
+
+    header .hamburger-btn button#hamburgerBtn {
+        margin-top: 2vh;
+    }
+
+    header .side-job-offer {
+        width: 20vw;
+        right: -10.8vw;
+        padding: 1.5vh 0 1.5vh 0.3vw;
+    }
+
+    header .side-job-offer a {
+        gap: 0vw;
+    }
+    
+    header .side-job-offer img {
+        width: 9vw;
+    }
+
+    header .to-top button#toTopBtn {
+        right: 5vw;
+    }
+
+    header .to-top button#toTopBtn img {
+        width: 5vw;
+    }
+
+    main .banner img {
+        width: 34vw;
+        height: 29vh;
+    }
+
+    main .introduction-container {
+        display: flex;
+        flex-direction: row;
+        gap: 1vw;
+        width: 100%;
+        padding: 25vh 3vw;
+    }
+
+    main .introduction-container .introduction-banner {
+        margin: 0 3vw;
+    }
+
+    main .introduction-container .left-introduction-container,
+    main .introduction-container .right-introduction-container {
+        width: 50%;
+
+    }
+
+    main .introduction-container .left-introduction-container .left-introduction, 
+    main .introduction-container .right-introduction-container .right-introduction {
+        width: 85%;
+        height: 35vh;
+        padding: 5vh 1vw;
+        background-size: contain;
+    }
+
+    main .introduction-container .introduction-text {
+        display: flex;
+        flex-direction: row;
+        gap: 3vw;
+        padding: 5vh 5vw;
+        width: 100%;
+        text-align: center;  
+    }
+
+    main .introduction-container .introduction-text h3 {
+        font-size: calc(var(--introduction-font-size) / 2.5);
+    }
+
+    main .introduction-container .introduction-text p {
+        padding-top: 3vh;
+        
     }
 }
 
@@ -21,29 +108,35 @@
         flex-direction: column;
     }
 
-    .logo-and-navbar {
-        padding: 5vw 2vw 1vw 0;
+    header .logo-and-navbar {
+        padding: 1vh 2vw 0 0;
     }
     
-    .nav-pages-header {
+    header .logo-and-navbar img {
+        width: 25.5vw;
+        height: 12vh;
+    }
+
+    header .nav-pages-header {
         display: flex;
         justify-content: space-evenly;
+        align-items: center;
         gap: 3.5vw;
         padding-right: 5vw;
         font-size: var(--primary-text-font-size);
         z-index: 5;
     }
 
-    .nav-pages-header a {
+    header .nav-pages-header a {
         color: var(--header-text-color);
         transition: color 0.25s;
     }
 
-    .nav-pages-header a:hover {
+    header .nav-pages-header a:hover {
         color: var(--primary-red-color);
     }
 
-    .nav-pages-header .dropdown:hover {
+    header .nav-pages-header .dropdown:hover {
         .dropdown-content ul {
             display: flex;
             flex-direction: column;
@@ -52,11 +145,11 @@
         }
     }
 
-    .dropdown-content {
+    header .dropdown-content {
         margin-top: 2vw;
         right: 5vw;
     }
-    .dropdown-content ul {
+    header .dropdown-content ul {
         display: none;
         background-color: var(--primary-red-color);
         padding: 2.5vw 2.5vw 2.5vw 2vw;
@@ -65,19 +158,68 @@
         /* transition: background-color .2s ease-in-out; */
     }
 
-    .hamburger-btn {
+    header .hamburger-btn {
         display: none;
     }
 
-    .socmed-nav {
+    header .socmed-nav {
         justify-content: right;
-        padding: 1.5vw 5vw 3vw 0;
+        padding: 0 5vw 0.5vw 0;
         gap: 1vw;
     }
 
-    .socmed-nav a {
+    header .socmed-nav a {
         height: 35px;
         width: 35px;
+    }
+
+    header .side-job-offer {
+        width: 15vw;
+        right: -8.8vw;
+    }
+    
+    header .side-job-offer img {
+        width: 7vw;
+        height: 6.5vh;
+    }
+
+    header .to-top button#toTopBtn {
+        right: 3.5vw;
+    }
+
+    header .to-top button#toTopBtn img {
+        width: 3.5vw;
+    }
+
+    main .introduction-container .introduction-banner {
+        margin: 10vh auto;
+    }
+
+    main .introduction-container .left-introduction-container .left-introduction, 
+    main .introduction-container .right-introduction-container .right-introduction {
+        width: 43vw;
+        height: 50vh;
+        padding: 10vh 0vw;
+    }
+
+    main .introduction-container .introduction-text {
+        gap: 3vw;
+        padding: 5vh 1vw;
+        text-align: center;
+    }
+    
+    main .introduction-container .introduction-text h3 {
+        margin-right: 5vw;
+    }
+    
+    main .introduction-container .introduction-text span {
+        color: var(--primary-red-color);
+    }
+    
+    main .introduction-container .introduction-text p {
+        font-size: var(--primary-text-font-size);
+        line-height: 3.5vh;
+        
     }
 
 }
