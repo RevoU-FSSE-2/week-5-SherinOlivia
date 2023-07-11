@@ -1,0 +1,350 @@
+
+* {
+    margin: 0;
+    list-style: none;
+    box-sizing: border-box;
+    border: none;
+    text-decoration: none;
+}
+
+@font-face {
+    font-family: Metropolis;
+    src: url(assets/fonts/Metropolis-regular.woff2);
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Metropolis Bold";
+    src: url(assets/fonts/Metropolis-bold.woff2);
+    font-weight: bold;
+    font-display: swap;
+}
+
+:root {
+    --primary-red-color: #db0d15;
+    --header-text-color: #fff;
+    --white-text-color: #fff;
+    --primary-text-font-size: 16px;
+    --banner-text-font-size: 30px;
+    --side-text-font-size: 10px;
+    --introduction-font-size: 55px;
+    --button-text-font-size: 14px;
+}
+
+header {
+    /* background-color: black; */
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+}
+
+header .logo-and-navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 5vw 1vw;
+}
+
+header .logo-and-navbar img {
+    width: 60vw;
+    height: 65px;
+    padding: 0 1vw;
+    margin-left: -10px;
+}
+
+header .hamburger-btn {
+    height: 47px;
+}
+
+button#hamburgerBtn {
+    background: none;
+    margin-top: 5.5vw;
+}
+
+header .nav-pages-header {
+    display: none;
+    text-transform: uppercase;
+}
+
+header .nav-pages.d-none {
+    display: none;
+}
+
+header .nav-pages {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--primary-red-color);
+    position: absolute;
+    left: 0;
+    width: 100%;
+    margin-top: 2vw;
+}
+
+header .nav-pages a {
+    color: var(--header-text-color);
+
+}
+
+header .dropdown-content {
+    height: 0;
+    transition: height 5s ease-in-out;
+    position: absolute;
+}
+
+header .dropdown-content ul {
+    display: none;
+}
+
+header .nav-pages .dropdown:hover {
+    .dropdown-content ul {
+        display: flex;
+        flex-direction: column;
+        gap: 1vw;
+        background-color: var(--primary-red-color);
+    }
+}
+
+header .socmed-nav a svg {
+    height: 1.8vh;
+    width: 3.25vw;
+}
+
+header .socmed-nav {
+    display: flex;
+    justify-content: center;
+    padding-top: 7.5vw;
+    gap: 2vw;
+}
+
+header .socmed-nav a {
+    display: flex;
+    border: 1px solid var(--primary-red-color);
+    border-radius: 20px;
+    height: 25px;
+    width: 25px;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+header .side-job-offer {
+    position: fixed;
+    top: 51.5vh;
+    width: 50vw;
+    right: -29.8vw;
+    background-color: var(--primary-red-color);
+    padding: 1.5vh 0 1.5vh 7vw;
+    border-radius: 55px 0 0 55px;
+    z-index: 5;
+}
+header .side-job-offer:hover {
+    right: 0;
+    transition: 1s ease-in-out;
+}
+
+header .side-job-offer a {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5vw;
+    color: var(--white-text-color);
+    font-family: "Metropolis Bold";
+    font-size: var(--side-text-font-size);
+    text-transform: uppercase;
+}
+
+header .side-job-offer img {
+    width: 10vw;
+    height: 7vh;
+
+}
+
+header .side-job-offer .job-offer-link{
+    display: flex;
+    flex-direction: column;
+}
+
+header .to-top button#toTopBtn {
+    display: none;
+    background: none;
+    position: fixed;
+    bottom: 5.15vh;
+    right: 12vw;
+    cursor: pointer;
+    z-index: 5;
+}
+
+header .to-top button#toTopBtn img {
+    width: 12vw;
+}
+
+
+@media screen and (min-width: 768px) {
+    :root {
+        --side-text-font-size: 12px;
+    }
+
+    header {
+        padding: 1vw 1vw 1vw;
+    }
+    header .socmed-nav {
+        justify-content: left;
+        padding: 2vw 0 0 3.75vw;
+        gap: 1vw;
+    }
+
+    header .logo-and-navbar {
+        padding: 3vw 1vw 1.5vw 5vw;
+    }
+
+    header .logo-and-navbar img {
+        width: 20vw;
+
+    }
+
+    header .hamburger-btn button#hamburgerBtn {
+        margin-top: 2vh;
+    }
+
+    header .side-job-offer {
+        width: 20vw;
+        right: -10.8vw;
+        padding: 1.5vh 0 1.5vh 0.3vw;
+    }
+
+    header .side-job-offer a {
+        gap: 0vw;
+    }
+    
+    header .side-job-offer img {
+        width: 9vw;
+    }
+
+    header .to-top button#toTopBtn {
+        right: 5vw;
+    }
+
+    header .to-top button#toTopBtn img {
+        width: 5vw;
+    }
+
+}
+
+@media screen and (min-width: 1024px) {
+
+    :root {
+        --header-text-color: #fff;
+
+    }
+
+    .header-container {
+        flex-direction: column;
+    }
+
+    header .logo-and-navbar {
+        padding: 1vh 2vw 0 0;
+    }
+    
+    header .logo-and-navbar img {
+        width: 25.5vw;
+        height: 12vh;
+    }
+
+    header .nav-pages-header {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        gap: 3.5vw;
+        padding-right: 5vw;
+        font-size: var(--primary-text-font-size);
+        z-index: 5;
+    }
+
+    header .nav-pages-header a {
+        color: var(--header-text-color);
+        transition: color 0.25s;
+    }
+
+    header .nav-pages-header a:hover {
+        color: var(--primary-red-color);
+    }
+
+    header .nav-pages-header .dropdown:hover {
+        .dropdown-content ul {
+            display: flex;
+            flex-direction: column;
+            gap: 1vw;
+            background-color: var(--primary-red-color);
+        }
+    }
+
+    header .dropdown-content {
+        margin-top: 2vw;
+        right: 5vw;
+    }
+    header .dropdown-content ul {
+        display: none;
+        background-color: var(--primary-red-color);
+        padding: 2.5vw 2.5vw 2.5vw 2vw;
+        line-height: 2vw;
+        font-size: var(--primary-text-font-size);
+        /* transition: background-color .2s ease-in-out; */
+    }
+
+    header .hamburger-btn {
+        display: none;
+    }
+
+    header .socmed-nav {
+        justify-content: right;
+        padding: 0 5vw 0.5vw 0;
+        gap: 1vw;
+    }
+
+    header .socmed-nav a {
+        height: 35px;
+        width: 35px;
+    }
+
+    header .side-job-offer {
+        width: 15vw;
+        right: -8.8vw;
+    }
+    
+    header .side-job-offer img {
+        width: 7vw;
+        height: 6.5vh;
+    }
+
+    header .to-top button#toTopBtn {
+        right: 3.5vw;
+    }
+
+    header .to-top button#toTopBtn img {
+        width: 3.5vw;
+    }
+
+}
+
+@media screen and (min-width: 1440px) {
+
+    :root {
+        --primary-text-font-size: 21px;
+
+    }
+
+    .header-container {
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-evenly;
+        padding: 3vw 2vw;
+    }
+
+    header .logo-and-navbar {
+        padding: 0;
+    }
+    
+    header .socmed-nav {
+        padding: 0;
+        gap: 1vw;
+    }
+}
