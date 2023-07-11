@@ -1,4 +1,4 @@
-* {
+/* * {
     margin: 0;
     list-style: none;
     box-sizing: border-box;
@@ -28,13 +28,17 @@
     --side-text-font-size: 10px;
     --introduction-font-size: 55px;
     --button-text-font-size: 14px;
-}
+} */
 
 body {
     font-family: Metropolis, sans-serif;
 }
 
-header {
+.header-bg-color {
+    background-color: black;
+}
+
+/* header {
     background-color: black;
     display: flex;
     flex-wrap: wrap;
@@ -177,7 +181,7 @@ header .to-top button#toTopBtn {
 
 header .to-top button#toTopBtn img {
     width: 12vw;
-}
+} */
 
 main .banner {
     color: var(--white-text-color);
@@ -324,6 +328,46 @@ main .introduction-container .introduction-text p {
     
 }
 
+main .jobsletter-container {
+    padding: 10vw 5vw;
+    margin: 5vw;
+
+    background-color: black;
+    color: var(--white-text-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: center;
+    text-align: center;
+}
+
+
+main .jobsletter-container .jobsletter-caption {
+    color: #dbd9d9;
+}
+
+main .jobsletter-container .jobsletter-caption::after {
+    background: #fff;
+    content: "";
+    display: block;
+    height: 3px;
+    margin: 40px auto 0;
+    width: 45px;
+}
+
+main .jobsletter-container .jobsletter-form {
+    padding: 5vh 0 0;
+    z-index: 1;
+}
+
+main .jobsletter-container img {
+    position: absolute;
+    /* top: 1vw; */
+    right: -2vw;
+    height: 25vh;
+    /* margin: 40px auto 0; */
+    width: 20vw;
+}
 
 
 @keyframes bounce{
