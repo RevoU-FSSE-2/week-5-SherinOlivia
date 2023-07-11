@@ -110,13 +110,13 @@ The success of the third installment from "The Witcher" Series, easily catapulte
 <br>
 
 
-For the header, the most prominent challenge was to change around the flex-direction, align-items, and justify-content on display: flex to fit each dimension (mobile, tablet, and laptop/desktop).
+For the header, the most prominent challenge was to change around the `flex-direction`, `align-items`, and `justify-content` on `display: flex` to fit each dimension (mobile, tablet, and laptop/desktop).
 
 Another feature from header that I worked on was the hamburger menu that shows a drop-down menu. Although this feature is fully functional, the transition have yet to work properly. 
 
 Due to the time constraint, I decided to leave the header to 90% identical and leave the 10% tweakings to later parts.
 
-<b>Comparison images:</b>
+<b>Comparison images:</b><br>
 <b>My Progress:</b>
 ![SherinOlivia's-Header](https://raw.githubusercontent.com/RevoU-FSSE-2/week-5-SherinOlivia/documentation/assets/MDimgs/Part1RooHeader.webp)
 
@@ -130,7 +130,7 @@ I also applied the same modification to adjust the middle part of the section, w
 
 I worked on Header and Main Banner back-to-back, therefore the correct pictures have yet to load during the time the screenshot was taken (because I haven't push the progress to Github Repository)
 
-<b>Comparison image:</b>
+<b>Comparison image:</b><br>
 <b>My Progress:</b>
 ![SherinOlivia's-Main-Banner](https://raw.githubusercontent.com/RevoU-FSSE-2/week-5-SherinOlivia/documentation/assets/MDimgs/Part1RooMainBanner.webp)
 
@@ -179,7 +179,7 @@ After pushing to the repository, we will be able to create a pull request and re
 `right: -29.8vw` to `right: 0`
 - With the correct image showing, I was able to adjust the image sizes and positions on the page better. Currently closer to the real web, with the only major issue is the unobtainable font (the official website uses paid font)
 
-<b>Comparison image:</b>
+<b>Comparison image:</b><br>
 <b>My Progress:</b>
 ![SherinOlivia's-Side-Job-Offer-Link](https://raw.githubusercontent.com/RevoU-FSSE-2/week-5-SherinOlivia/documentation/assets/MDimgs/Part2RooSideJobLink.webp)
 
