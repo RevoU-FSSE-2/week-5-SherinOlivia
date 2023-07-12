@@ -67,14 +67,9 @@ const header = `
             </svg>
         </a>
         <a href="https://twitter.com/cdprojektred" target="_blank">
-            <svg xmlns="http://www.w3.org/2000/svg" width="17.153" height="13" viewBox="0 0 17.153 13.931">
-                <path id="twitter" d="M15.39,51.554c.011.152.011.3.011.457a9.934,9.934,0,0,1-10,10A9.934,9.934,0,0
-                1,0,60.435a7.273,7.273,0,0,0,.849.044,7.04,7.04,0,0,0,4.364-1.5,3.522,3.522,0,0,1-3.287-2.438,4.433
-                4.433,0,0,0,.664.054,3.718,3.718,0,0,0,.925-.12A3.516,3.516,0,0,1,.753.023V52.98a3.541,3.541,0,0,0
-                1.589.446,3.521,3.521,0,0,1-1.088-4.7A9.993,9.993,0,0,0,8.446,52.4a3.969,3.969,0,0,1-.087-.805,3.519
-                3.519,0,0,1,6.084-2.405,6.921,6.921,0,0,0,2.231-.849,3.506,3.506,0,0,1-1.546,1.937,7.047,7.047,0,0,0
-                2.024-.544,7.557,7.557,0,0,1-1.763,1.818Z" transform="translate(0 -48.082)" fill="#fff" opacity="0.35" />
-            </svg>
+        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="#fff" opacity="0.35" class="bi bi-twitter" viewBox="0 0 16 16">
+            <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
+        </svg>
         </a>
         <a href="https://www.youtube.com/user/CDPRED" target="_blank">
             <svg xmlns="http://www.w3.org/2000/svg" width="15" height="11.838" viewBox="0 0 16.821 11.838">
@@ -150,4 +145,23 @@ const mainEl = document.querySelector('main')
         document.querySelector('.header-logo').classList.add("change-img");
       });
 
+
+// Go to top button :
+let goTopBtn = document.getElementById("toTopBtn");
+
+window.onscroll = function() {
+    showButtonFunction()
+};
+
+function showButtonFunction() {
+    if (document.documentElement.scrollTop > 20) {
+        goTopBtn.style.display = "block";
+      } else {
+        goTopBtn.style.display = "none";
+      }
+}
+
+function toTopFunction() {
+    document.documentElement.scrollTop = 0;
+}
     

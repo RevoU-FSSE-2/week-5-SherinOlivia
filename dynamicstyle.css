@@ -134,7 +134,7 @@ header .side-job-offer {
     background-color: var(--primary-red-color);
     padding: 1.5vh 0 1.5vh 7vw;
     border-radius: 55px 0 0 55px;
-    z-index: 5;
+    z-index: 6;
 }
 header .side-job-offer:hover {
     right: 0;
@@ -175,6 +175,7 @@ header .to-top button#toTopBtn {
 
 header .to-top button#toTopBtn img {
     width: 12vw;
+    filter: drop-shadow(0 0 1vw black);
 }
 
 
@@ -221,6 +222,7 @@ header .to-top button#toTopBtn img {
 
     header .to-top button#toTopBtn {
         right: 5vw;
+        
     }
 
     header .to-top button#toTopBtn img {
