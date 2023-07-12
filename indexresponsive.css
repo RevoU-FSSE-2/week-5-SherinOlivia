@@ -1,6 +1,7 @@
 @media screen and (min-width: 768px) {
     :root {
         --side-text-font-size: 12px;
+        --jobsletter-button-font-size: 12px;
     }
 
     main .banner img {
@@ -13,7 +14,7 @@
         flex-direction: row;
         gap: 1vw;
         width: 100%;
-        padding: 25vh 3vw;
+        padding: 25vh 3vw 2vh;
     }
 
     main .introduction-container .introduction-banner {
@@ -49,7 +50,30 @@
 
     main .introduction-container .introduction-text p {
         padding-top: 3vh;
-        
+    }
+
+    main .jobsletter-container {
+        padding: 7.5vh 0 8vh;
+        margin: 3.5vw;
+    }
+
+    main .jobsletter-container .jobsletter-form input {
+        width: 88%;
+        height: 10vh;
+        padding: 1vh 3vw;
+    }
+    
+    main .jobsletter-container .jobsletter-form button {
+        right: 7vw;
+        margin-top: 1vh;
+        width: 13vw;
+        height: 8vh;
+    }
+
+    main .jobsletter-container img {
+        right: -19.5vw;
+        height: 28.5vh;
+        width: 50vw;
     }
 }
 
@@ -57,7 +81,8 @@
 
     :root {
         --header-text-color: #fff;
-
+        --jobsletter-title-font-size: 42px;
+        --jobsletter-button-font-size: 16px;
     }
 
     main .introduction-container .introduction-banner {
@@ -90,6 +115,29 @@
         line-height: 3.5vh;
         
     }
+
+    main .jobsletter-container {
+        padding: 7.5vh 0 8vh;
+        margin: 5vw;
+    }
+
+    main .jobsletter-container .jobsletter-form input {
+        width: 78%;
+        height: 9vh;
+    }
+    
+    main .jobsletter-container .jobsletter-form button {
+        right: 11vw;
+        width: 15vw;
+        height: 7vh;
+    }
+
+    main .jobsletter-container img {
+        right: -24.5vw;
+        height: 30.5vh;
+        width: 50vw;
+    }
+    
 
 }
 
