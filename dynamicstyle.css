@@ -32,6 +32,7 @@
 }
 
 header {
+    background-color: #fff;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column-reverse;
@@ -129,7 +130,7 @@ header .side-job-offer {
     position: fixed;
     top: 51.5vh;
     width: 50vw;
-    right: -29.8vw;
+    right: -28.8vw;
     background-color: var(--primary-red-color);
     padding: 1.5vh 0 1.5vh 7vw;
     border-radius: 55px 0 0 55px;

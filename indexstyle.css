@@ -1,4 +1,4 @@
-/* * {
+* {
     margin: 0;
     list-style: none;
     box-sizing: border-box;
@@ -27,165 +27,29 @@
     --banner-text-font-size: 30px;
     --side-text-font-size: 10px;
     --introduction-font-size: 55px;
-    --button-text-font-size: 14px;
-} */
+    --button-text-font-size: 12px;
+    --jobsletter-title-font-size: 32px;
+    --jobsletter-button-font-size: 10px;
+}
 
 body {
     font-family: Metropolis, sans-serif;
+    overflow-x: hidden;
 }
 
+
+/* Dynamics Styling: */
 .header-bg-color {
     background-color: black;
 }
 
 .change-img {
     content: url(assets/CDPRlogodark.svg);
-}
-
-/* header {
-    background-color: black;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column-reverse;
-}
-
-header .logo-and-navbar {
-    display: flex;
-    justify-content: space-between;
-    padding: 5vw 1vw;
-}
-
-header .logo-and-navbar img {
     width: 60vw;
     height: 65px;
     padding: 0 1vw;
     margin-left: -10px;
 }
-
-header .hamburger-btn {
-    height: 47px;
-}
-
-button#hamburgerBtn {
-    background: none;
-    margin-top: 5.5vw;
-}
-
-header .nav-pages-header {
-    display: none;
-    text-transform: uppercase;
-}
-
-header .nav-pages.d-none {
-    display: none;
-}
-
-header .nav-pages {
-    display: flex;
-    flex-direction: column;
-    background-color: var(--primary-red-color);
-    position: absolute;
-    left: 0;
-    width: 100%;
-    margin-top: 2vw;
-}
-
-header .nav-pages a {
-    color: var(--header-text-color);
-
-}
-
-header .dropdown-content {
-    height: 0;
-    transition: height 5s ease-in-out;
-    position: absolute;
-}
-
-header .dropdown-content ul {
-    display: none;
-}
-
-header .nav-pages .dropdown:hover {
-    .dropdown-content ul {
-        display: flex;
-        flex-direction: column;
-        gap: 1vw;
-        background-color: var(--primary-red-color);
-    }
-}
-
-header .socmed-nav a svg {
-    height: 1.8vh;
-    width: 3.25vw;
-}
-
-header .socmed-nav {
-    display: flex;
-    justify-content: center;
-    padding-top: 7.5vw;
-    gap: 2vw;
-}
-
-header .socmed-nav a {
-    display: flex;
-    border: 1px solid var(--primary-red-color);
-    border-radius: 20px;
-    height: 25px;
-    width: 25px;
-    align-content: center;
-    justify-content: center;
-    align-items: center;
-}
-
-header .side-job-offer {
-    position: fixed;
-    top: 51.5vh;
-    width: 50vw;
-    right: -29.8vw;
-    background-color: var(--primary-red-color);
-    padding: 1.5vh 0 1.5vh 7vw;
-    border-radius: 55px 0 0 55px;
-    z-index: 5;
-}
-header .side-job-offer:hover {
-    right: 0;
-    transition: 1s ease-in-out;
-}
-
-header .side-job-offer a {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: 5vw;
-    color: var(--white-text-color);
-    font-family: "Metropolis Bold";
-    font-size: var(--side-text-font-size);
-    text-transform: uppercase;
-}
-
-header .side-job-offer img {
-    width: 10vw;
-    height: 7vh;
-
-}
-
-header .side-job-offer .job-offer-link{
-    display: flex;
-    flex-direction: column;
-}
-
-header .to-top button#toTopBtn {
-    display: none;
-    background: none;
-    position: fixed;
-    bottom: 5.15vh;
-    right: 12vw;
-    cursor: pointer;
-}
-
-header .to-top button#toTopBtn img {
-    width: 12vw;
-} */
 
 main .banner {
     color: var(--white-text-color);
@@ -304,7 +168,10 @@ main .introduction-container .introduction-banner .introduction-links-container 
     width: 35vw;
     height: 8vh;
     padding: 2vw 2vw;
+}   
 
+main .introduction-container .introduction-banner .introduction-links-container a:hover {
+    background-color: var(--primary-red-color);
 }   
 
 main .introduction-container .introduction-text {
@@ -333,6 +200,7 @@ main .introduction-container .introduction-text p {
 }
 
 main .jobsletter-container {
+    position: relative;
     padding: 7.5vh 0 10vh;
     margin: 5vw;
     background-color: black;
@@ -345,6 +213,7 @@ main .jobsletter-container {
 }
 
 main .jobsletter-container h2 {
+    font-size: var(--jobsletter-title-font-size);
     text-transform: uppercase;
 }
 
@@ -378,23 +247,26 @@ main .jobsletter-container .jobsletter-form input {
 main .jobsletter-container .jobsletter-form button {
     background-color: var(--primary-red-color);
     position: absolute;
-    right: 8.5vw;
-    margin-top: 1.55vh;
+    right: 2vw;
+    margin-top: 0.75vh;
     width: 25vw;
-    height: 5vh;
+    height: 6.85vh;
     border-radius: 30px;
     text-transform: uppercase;
     color: var(--white-text-color);
-    font-size: 10px;
+    font-size: var(--jobsletter-button-font-size);
+    font-family: "Metropolis Bold";
     z-index: 3;
+}
+
+main .outer-jobsletter-container {
+    overflow-x: hidden;
 }
 
 main .jobsletter-container img {
     position: absolute;
-    /* top: 1vw; */
-    right: -12.5vw;
+    right: -17.5vw;
     height: 25.5vh;
-    /* margin: 40px auto 0; */
     width: 40vw;
     z-index: 1;
     opacity: 0.95;

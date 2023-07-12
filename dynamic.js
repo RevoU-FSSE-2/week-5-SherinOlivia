@@ -3,7 +3,7 @@ const header = `
     <section class="logo-and-navbar"> 
         <div class="header-logo"> 
             <a href="https://cdproojektred.netlify.app/">
-                <img src="" 
+                <img src="assets/CDPRlogolight.svg" 
                 alt="CDPR logo with white font color for dark mode and black font for light mode" />
             </a>
         </div>
