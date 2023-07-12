@@ -3,8 +3,8 @@ const header = `
     <section class="logo-and-navbar"> 
         <div class="header-logo"> 
             <a href="https://cdproojektred.netlify.app/">
-                <img src="assets/CDPRlogodark.svg" 
-                alt="CDPR logo with white font color for dark mode" />
+                <img src="" 
+                alt="CDPR logo with white font color for dark mode and black font for light mode" />
             </a>
         </div>
         <div class="nav-pages-header">
@@ -147,7 +147,7 @@ const mainEl = document.querySelector('main')
 
     window.addEventListener("load", () => {
         document.querySelector('header').classList.add("header-bg-color");
-        // document.querySelector('.header-logo').classList.add("change-img");
+        document.querySelector('.header-logo').classList.add("change-img");
       });
 
     

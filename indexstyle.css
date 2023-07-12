@@ -38,6 +38,10 @@ body {
     background-color: black;
 }
 
+.change-img {
+    content: url(assets/CDPRlogodark.svg);
+}
+
 /* header {
     background-color: black;
     display: flex;
@@ -239,8 +243,8 @@ main .banner .down-arrow img {
 }
 
 main .introduction-container {
-    padding: 25vw 2vw;
-    margin-top: 1vw;
+    padding: 10vh 2vw 5vh;
+    margin-top: 5vh;
 }
 
 main .introduction-container .left-introduction-container .left-introduction {
@@ -329,9 +333,8 @@ main .introduction-container .introduction-text p {
 }
 
 main .jobsletter-container {
-    padding: 10vw 5vw;
+    padding: 7.5vh 0 10vh;
     margin: 5vw;
-
     background-color: black;
     color: var(--white-text-color);
     display: flex;
@@ -341,9 +344,13 @@ main .jobsletter-container {
     text-align: center;
 }
 
+main .jobsletter-container h2 {
+    text-transform: uppercase;
+}
 
 main .jobsletter-container .jobsletter-caption {
-    color: #dbd9d9;
+    color: rgba(255, 255, 255, 0.3);
+    font-size: var(--primary-text-font-size);
 }
 
 main .jobsletter-container .jobsletter-caption::after {
@@ -356,19 +363,42 @@ main .jobsletter-container .jobsletter-caption::after {
 }
 
 main .jobsletter-container .jobsletter-form {
-    padding: 5vh 0 0;
-    z-index: 1;
+    padding-top: 5vh;
+    z-index: 2;
+}
+
+
+main .jobsletter-container .jobsletter-form input {
+    height: 8vh;
+    width: 100%;
+    border-radius: 30px;
+    padding: 1vh 5vw;
+}
+
+main .jobsletter-container .jobsletter-form button {
+    background-color: var(--primary-red-color);
+    position: absolute;
+    right: 8.5vw;
+    margin-top: 1.55vh;
+    width: 25vw;
+    height: 5vh;
+    border-radius: 30px;
+    text-transform: uppercase;
+    color: var(--white-text-color);
+    font-size: 10px;
+    z-index: 3;
 }
 
 main .jobsletter-container img {
     position: absolute;
     /* top: 1vw; */
-    right: -2vw;
-    height: 25vh;
+    right: -12.5vw;
+    height: 25.5vh;
     /* margin: 40px auto 0; */
-    width: 20vw;
+    width: 40vw;
+    z-index: 1;
+    opacity: 0.95;
 }
-
 
 @keyframes bounce{
     0%{
