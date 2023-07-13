@@ -116,7 +116,7 @@ main .banner .banner-intro h1 {
 }
 
 main .banner video {
-    top: 20vh;
+    top: 18vh;
     left: 0;
     position: absolute;
     width: 100%;
@@ -139,8 +139,7 @@ main .banner .down-arrow img {
 }
 
 main .introduction-container {
-    padding: 10vh 2vw 5vh;
-    margin-top: 5vh;
+    padding: 20vh 4vw 5vh;
 }
 
 main .introduction-container .left-introduction-container .left-introduction {
@@ -149,7 +148,7 @@ main .introduction-container .left-introduction-container .left-introduction {
     width: 100%;
     height: 35vh;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     background-color: rgb(158, 156, 156);
     background-blend-mode: multiply;
     padding: 15vw 0;
@@ -162,7 +161,7 @@ main .introduction-container .right-introduction-container .right-introduction {
     width: 100%;
     height: 35vh;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     background-color: rgb(158, 156, 156);
     background-blend-mode: multiply;
     padding: 15vw 0;
@@ -186,7 +185,7 @@ main .introduction-container .introduction-banner .introduction-links-container 
     justify-content: center;
     gap: 5vw;
     height: 10vw;
-    padding: 4vw 5vw;
+    padding: 4vw;
 }
 
 main .introduction-container .introduction-banner .introduction-links-container a {
@@ -222,7 +221,7 @@ main .introduction-container .introduction-text p {
 main .jobsletter-container {
     position: relative;
     padding: 7.5vh 0 10vh;
-    margin: 5vw;
+    margin: 4vw;
     background-color: black;
     color: var(--white-text-color);
     display: flex;
@@ -259,7 +258,7 @@ main .jobsletter-container .jobsletter-form {
 
 main .jobsletter-container .jobsletter-form input {
     height: 8vh;
-    width: 100%;
+    width: 88%;
     border-radius: 30px;
     padding: 1vh 5vw;
 }
@@ -267,8 +266,8 @@ main .jobsletter-container .jobsletter-form input {
 
 main .jobsletter-container .jobsletter-form button {
     position: absolute;
-    right: 2vw;
-    margin-top: 0.75vh;
+    right: 7.5vw;
+    margin-top: 0.7vh;
     width: 25vw;
     height: 6.85vh;
     z-index: 3;
@@ -288,219 +287,6 @@ main .jobsletter-container img {
     filter: drop-shadow(0 0 0.75vw var(--primary-red-color));
 }
 
-footer .footer-content {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    padding: 10vh 2vw 5vh;
-    margin-top: 5vh;
-}
-
-footer .footer-content .studio-container h3::after, 
-footer .footer-content .contact-container h3::after {
-    content: "";
-    width: 40px;
-    background-color: black;
-    display: block;
-    height: 3px;
-    margin: 5px auto;
-}
-
-footer .footer-content .studio-banners {
-    display: flex;
-    flex-direction: column;
-    gap: 3.5vh;
-    padding: 3vh 2vw 5vh;
-}
-
-footer .footer-content .studio-container .studio-banners #Studio1Warsaw {
-    background-image: url(assets/footerimg/Studio1Warsaw.webp);
-}
-
-footer .footer-content .studio-container .studio-banners #Studio2Cracow {
-    background-image: url(assets/footerimg/Studio2Cracow.webp);
-}
-
-footer .footer-content .studio-container .studio-banners #Studio3Wroclaw {
-    background-image: url(assets/footerimg/Studio3Wroclaw.webp);
-}
-
-footer .footer-content .studio-container .studio-banners #Studio4Vancouver {
-    background-image: url(assets/footerimg/Studio4Vancouver.webp);
-}
-
-footer .footer-content .studio-container .studio-banners #Studio1Warsaw,
-footer .footer-content .studio-container .studio-banners #Studio2Cracow,
-footer .footer-content .studio-container .studio-banners #Studio3Wroclaw,
-footer .footer-content .studio-container .studio-banners #Studio4Vancouver {
-    opacity: 1.5;
-    width: 100%;
-    height: 25vh;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-color: rgb(158, 156, 156);
-    background-blend-mode: multiply;
-    padding: 10vw 0;
-    display: flex;
-    flex-direction: column;
-    align-items:center;
-    color: var(--white-text-color);
-}
-
-footer .footer-content .studio-container .studio-banners .studio-name {
-    margin: 3vh 0;
-    font-size: var(--footer-sub-font-size);
-}
-
-footer .footer-content .studio-container .studio-banners .studio-address,
-footer .footer-content .studio-container .studio-banners .studio-city {
-    margin: 0.5vh 0;
-    font-size: calc(var(--footer-sub-font-size)/1.5);
-}
-
-footer .contact-container {
-    display: flex;
-    flex-direction: column;
-    gap: 3vh;
-    
-}
-
-footer .contact-container .contact-category {
-    display: flex;
-    flex-direction: column;
-    padding-top: 5vh;
-}
-
-footer .contact-container .contact-category .contact-category-title {
-    font-size: calc(var(--footer-sub-font-size)/1.5);
-}
-
-footer .contact-container .contact-category .contact-category-email {
-    font-size: calc(var(--footer-sub-font-size)/1.2);
-    font-weight: 1000;
-}
-
-footer .contact-container .contact-category .contact-category-email:link {
-    color: #000;
-}
-
-footer .contact-container .contact-button {
-    margin-top: 3vh;
-    width: 70%;
-    height: 7.5vh;
-    align-self: center;
-    align-items: center;
-    display: flex;
-    justify-content: center;
-}
-
-footer .footer-nav {
-    background-color: #000;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    color: rgba(255, 255, 255, 0.3);
-    gap: 2vh;
-}
-
-footer .footer-nav ul {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    flex-wrap: wrap;
-    height: 16vh;
-    left: -15vw;
-    padding-top: 3vh;
-    column-gap: 1vw;
-    margin: 0 -50vw;
-}
-
-footer .footer-nav ul li a:any-link {
-    color: var(--white-text-color);
-}
-
-footer .socmed-nav {
-    display: flex;
-    justify-content: center;
-    padding-top: 7.5vw;
-    gap: 2vw;
-}
-
-footer .socmed-nav a {
-    display: flex;
-    border: 1px solid var(--primary-red-color);
-    border-radius: 20px;
-    height: 25px;
-    width: 25px;
-    align-content: center;
-    justify-content: center;
-    align-items: center;
-}
-
-footer .footer-nav .catchphrase-logo img {
-    width: 80%;
-    height: 10vh;
-}
-/* Cookie & Footer logo Modals: */
-
-footer .cookie-modal, .catchphrase-modal {
-    display: none;
-    position: fixed;
-    padding-top: 100px;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0,0,0,0.8);
-    color: black;
-    z-index: 5;
-  }
-  
-  /* Modal Content */
-  .cookie-modal-content, .catchphrase-modal-content {
-    background-color: #fefefe;
-    margin: auto;
-    height: 70vh;
-    padding: 5vw;
-    border: 2px solid var(--primary-red-color);
-    width: 80%;
-    z-index: 10;
-    overflow: scroll;
-  }
-  
-  .cookie-modal-content .cookie-modal-text, .catchphrase-modal-content .catchphrase-modal-text {
-    padding-top: 1.5vh;
-    display: flex;
-    flex-direction: column;
-    gap: 2vh;
-    font-size: calc(var(--footer-sub-font-size)/2);
-    font-weight: 200;
-    text-align: center;
-  }
-
-  .catchphrase-modal-content .catchphrase-modal-text h4 {
-    padding-top: 1.5vh;
-    display: flex;
-    flex-direction: column;
-    gap: 2vh;
-    font-size: var(--footer-sub-font-size);
-  }
-  
-  .close-cookie-modal, .close-catchphrase-modal {
-    color: var(--primary-red-color);
-    float: right;
-    font-size: 28px;
-    font-weight: bold;
-  }
-  
-  .close-cookie-modal:hover, .close-cookie-modal:focus, 
-  .close-catchphrase-modal:hover, .close-catchphrase-modal:focus {
-    color: #770808;
-    text-decoration: none;
-    cursor: pointer;
-  }
 
 @keyframes bounce{
     0%{
