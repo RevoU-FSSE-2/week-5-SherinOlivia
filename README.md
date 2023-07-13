@@ -33,41 +33,45 @@ The Main Focus for the project are:
 ## Pre-development Stage
 
 ### Terminal, VS Code, and Github
-<b>What is a terminal?</b>
-Terminal is a program that we use to type in commands for the system to follow. In a simpler term, it's the tool that we use to communicate with our device to have them do whatever we need them to do. Each operating system has their own built-in terminal but we can also download external terminal if we want to. 
+<b>Terminal</b>
+: a program that we use to type in commands for the system to follow. In a simpler term, it's the tool that we use to communicate with our device to have them do whatever we need them to do. 
 
-Windows and Linux have differing commands, to solve this possibly-minor-issue, we can use Git Bash on windows, it's an application that basically allows Windows users to use linux commands on Windows.
+Each operating system has their own built-in terminal with differing commands, which can be easily solved by installing **Git Bash** on Windows, an application that basically allows Windows users to use Linux commands.
 
 [Author's Note: [Check this link out](https://www.geeksforgeeks.org/linux-vs-windows-commands/) for a comprehensive comparison between linux and windows commands.]
 
-**What is Visual Studio Code?**
-Visual Studio Code, usually referred to as VS Code, is a free and powerful source-code editor made by Windows that can be used by all Windows, Linux, and macOS users. This is where we will build our projects and other things such as debugging and version controlling. 
+**Visual Studio Code**
+: usually referred to as VS Code, is a free and powerful source-code editor made by Windows that can be used by all Windows, Linux, and macOS users. 
+
+This is where we will build our projects and other things such as debugging and version controlling. 
 
 
-**Github and their repository**
-Github is a widely-used platform that provides services in software development. Through Github, we can also collaborate with our team on any project.
+**Github**
+:  a widely-used platform that provides services in software development. Through Github, we can also collaborate with our team on any project.
 
-Github repository contains all of our project's files and even each file's revision history. This means, whatever we work on, as an individual or as a team, we are able to check the project's changes or updates from the very beginning to the latest state. 
+Github repository contains all of our project's files and their respective revision history. This means, any changes or updates from the very beginning to the latest state of the project can be checked and reviewed.
 
-A repository starts out with one main branch that has an empty 'readme.md' file in it. Once we start on a project, it's a commonly advised practice to create branches, either for each individual to use or for each task to be worked on.
+An empty repository only has an empty `readme.md` file in it. Once we start on a project, it's a commonly advised practice to create branches, either for each individual to use or for each task to be worked on.
 
 ### Accepted the assignment, what's next?
-The first and foremost thing to do after accepting a task is git clone the Github repository to our device's local storage. This part is where Terminal comes in to our rescue.
+The first and foremost thing to do after accepting a task is to clone the Github repository to our device's local storage. This  is where Terminal's role comes in.
 
-1. First, we need to copy the repository link.
+
+1. First, copy the repository link.
 ![Copying-Repository-Link](https://raw.githubusercontent.com/RevoU-FSSE-2/week-5-SherinOlivia/documentation/assets/MDimgs/Copyingrepolink.webp)
 
 
-2. And then, open the terminal of your choice. Be especially aware that git clone will directly clone the repository into the directory you're currently in (i.e if your position is currently in desktop, your repository folder will be cloned to desktop.) 
- To prevent cloning into the wrong directory, use this command to check: `cd`
- - You may also use `cd` to change directory, i.e `cd e:`
-- Once you're in the right directory, proceed to clone the repository using this command:
+2. Then, open the terminal of your choice. 
+Be especially aware that `git clone` will directly clone the repository into the directory you're currently in (i.e if your position is currently in desktop, your repository folder will be cloned to desktop.) 
+To prevent cloning into the wrong directory, use this command to check: `cd`
+- You may also use `cd` to change directory, i.e `cd e:`
+- Once you're in the right directory, proceed to clone the repository::
  `git clone (insert the copied repository link)` 
 i.e `git clone https://github.com/RevoU-FSSE-2/week-5-SherinOlivia.git`
 
 3. Next, using the same terminal, we can go ahead and move into the repository folder to create the needed files or folders for the development process
 - to create new folder, use `mkdir folder-name` i.e `mkdir assets`
-- to create new file, use `touch file-name`` i.e `touch index.html`, `touch style.css`, `touch responsive.css`
+- to create new file, use `touch file-name` i.e `touch index.html`, `touch style.css`, `touch responsive.css`
 
 4. Once set, use `code .` to open the project in VS Code. 
 
@@ -75,16 +79,15 @@ i.e `git clone https://github.com/RevoU-FSSE-2/week-5-SherinOlivia.git`
 
 ![Benjamin-Franklin-Quote?](https://quotefancy.com/media/wallpaper/1600x900/3006-Benjamin-Franklin-Quote-By-failing-to-prepare-you-are-preparing-to.jpg)
 
-Of course not! We are not supposed to enter the lion's den unprepared. 
-To prepare ourselves, we need **ideas.**
+To prepare for all kinds of projects, we need **ideas.**
 
-Ideas can be obtained by browsing the internet, talking and discussing with your teammates or friends, or even consulting with your team leader. Make sure that the ideas that you come up with or agreed upon by the team, fit with the whole picture of the project. We do not bump into Barbie in Skyrim, now do we?
+Ideas can be obtained by browsing the internet, talking and discussing with your teammates or friends, or even consulting with your team leader. **Make sure that the ideas that you come up with or agreed upon by the team  fit with the whole picture of the project**. We do not bump into Barbie in Skyrim, now do we?
 
 **Useful tools that we can use during brainstorming/planning**
-- [Figma](https://www.figma.com/), a free collaborative interface design tool that helps us design anything such as logos, applications, websites, etc.
+- [**Figma**](https://www.figma.com/), a free collaborative interface design tool that helps us design anything such as logos, applications, websites, etc.
 ![Figma's-Homepage](https://miro.medium.com/v2/resize:fit:4488/1*VyzNojpL-s1tEd3_cHECzw.png)
 
-- [Coolors](), a free website where we are able to create our own color palette, or browse through the thousands of color palettes available. We are also able to upload any image to the site to extract the color palette automatically.
+- [**Coolors**](https://coolors.co/), a free website where we are able to create our own color palette, or browse through the thousands of color palettes available. We are also able to upload any image to the site to extract the color palette automatically.
 ![Coolor's-Homepage](https://officeotter.org/wp-content/uploads/2018/10/Coolors-Homepage-Screenshot.png)
 
 As a HTML & CSS beginner, we can also try to manually clone any website of our liking, with the precaution that we are cloning the website as a way to practice or build our portfolio (non-commercial use). <strong>It's extremely prohibited to use the clone-website for commercial purposes!</strong>
@@ -92,17 +95,17 @@ As a HTML & CSS beginner, we can also try to manually clone any website of our l
 ## Development Stages
 
 <b>Important tool</b> that can and should be used during development: <strong>Browser Developer Tools</strong>.
-To access Developer Tools, simply right-click on any webpage, and choose 'Inspect Element'
+To access Developer Tools, simply **right-click on any webpage**, and choose '**Inspect**'
 (img: Accessing Developer Tools)
+![Accessing-DevTools](https://raw.githubusercontent.com/RevoU-FSSE-2/week-5-SherinOlivia/main/assets/MDimgs/AccessingDevTools.webp)
 
 Through Developer Tools, we are able to check and edit the html and css of the page we are inspecting. This way, we can easily modify CSS elements live (because the modifications get applied in real time.)
 (img: Modifying a CSS element through Developer Tools)
- 
+ ![Modifying-CSS-Through-DevTools](https://raw.githubusercontent.com/RevoU-FSSE-2/week-5-SherinOlivia/main/assets/MDimgs/ModifyingCSSthroughDevTools.webp)
 
 ### Official Website used : [CD Projekt Red](https://www.cdprojektred.com/en)
 CD Projekt Red is a subsidiary of CD Projekt, best known as the game studio behind the 2015 Game of The Year "The Witcher 3 : The Wild Hunt", a game that is still known as one of the greatest open-world game of all times to this date.
 
-The success of the third installment from "The Witcher" Series, easily catapulted CD Projekt Red's fame into a similar level of "Grand Theft Auto" franchise (by Rockstar Games, a subsidiary of Take Two) and the amassed massive fortune was able to jump-start new projects such as 'Gwent' (a turn-based card game that started out as a mini game in The Witcher 3: Wild Hunt), Cyberpunk 2077 (a role-playing open world game that was promoted as a massive upgrade from The Witcher 3: Wild Hunt, although their initial release brought upon several controversial issues, the game is currently gaining positive feedbacks by each updates), at least two upcoming "The Witcher" trilogy related games, an upcoming new trilogy for "The Witcher" series, an upcoming expansion for Cyberpunk 2077, and lastly, also an upcoming game, a sequel to Cyberpunk 2077.
 
 ### Part 1: Header & Main Banner
 **Official CDPR's Header & Main Banner:**
@@ -110,25 +113,23 @@ The success of the third installment from "The Witcher" Series, easily catapulte
 <br>
 
 
-For the header, the most prominent challenge was to change around the `flex-direction`, `align-items`, and `justify-content` on `display: flex` to fit each dimension (mobile, tablet, and laptop/desktop).
+**Header's distinctive points:**
+1. different position/location of the logo, hamburger button, social media navigation row
+2. functional hamburger button (added in next update)
+3. a side fixed button that leads to another page.
 
-Another feature from header that I worked on was the hamburger menu that shows a drop-down menu. Although this feature is fully functional, the transition have yet to work properly. 
+Due to the time constraint at the time of writing, I decided to leave the header to 90% identical and leave the 10% tweakings to later parts.
 
-Due to the time constraint, I decided to leave the header to 90% identical and leave the 10% tweakings to later parts.
-
-<b>Comparison images:</b><br>
-<b>My Progress:</b>
+<b>Progress:</b>
 ![SherinOlivia's-Header](https://raw.githubusercontent.com/RevoU-FSSE-2/week-5-SherinOlivia/documentation/assets/MDimgs/Part1RooHeader.webp)
 
-For the Main Banner, there is a video playing in the background on a loop. I was able to easily get the video source, but tweaking the video position posed quite a challenge. Especially because I needed to also position the logo and text/intro over the video.
+**Main Banner's distinctive points:**
+1. A trailer video playing in the background on a loop.
+2. CDPR logo & Intro/Phrase over the video
+3. a button that leads to the next part of the page
 
-For section over the video, I used:
-`display: flex`
-`flex-direction: column`
-`align-items: center`
-I also applied the same modification to adjust the middle part of the section, which is an introductory phrase.
 
-I worked on Header and Main Banner back-to-back, therefore the correct pictures have yet to load during the time the screenshot was taken (because I haven't push the progress to Github Repository)
+[Author's Note: worked on Header and Main Banner back-to-back, therefore the correct pictures have yet to load during the time the screenshot was taken (because I haven't push the progress to Github Repository)]
 
 <b>Comparison image:</b><br>
 <b>My Progress:</b>
@@ -136,9 +137,9 @@ I worked on Header and Main Banner back-to-back, therefore the correct pictures 
 
 ### Git Branch & Pull Request
 
-To update the project's progress, I created new branch to push unto and used Pull Request feature through Github
+To update the project's progress, I created a new branch to push unto and used Pull Request feature through Github
 
-1. Making and Switching to a new branch
+1. **Making and Switching to a new branch**
 - Making new branch: 
 `git branch branch-name` 
 i.e `git branch header-and-banner`
@@ -150,18 +151,17 @@ OR
 `git checkout -b branch-name` 
 i.e `git checkout -b header-and-banner`
 
-2. Git push to branch
+2. **Git push to branch**
 - Initial/first push (of the branch): 
 `git push --set-upstream origin branch-name` 
 i.e `git push --set-upstream origin header-and-banner`
-- Second and onwards push (of the branch): `git push branch-name` 
-i.e `git-push header-and-banner`
+- Second and onwards push (of the branch): `git push` 
 
 [Author's Note, for every new branch, we will have to use the `--set-upstream origin command`, because it sets the branch as the default target to push into.]
 
-3. Pull Request
+3. **Pull Request**
 
-After pushing to the repository, we will be able to create a pull request and review the changes before merging the code.
+After pushing, head to the repository to open a pull request and review the changes before merging the code.
 - Create Pull Request through Github's Repository
 ![Pull-Request](https://raw.githubusercontent.com/RevoU-FSSE-2/week-5-SherinOlivia/documentation/assets/MDimgs/PullRequest.webp)
 - Edit the commit messages to fully explain the updates then click Merge Pull Request
@@ -171,30 +171,217 @@ After pushing to the repository, we will be able to create a pull request and re
 - Pull Request succeeded. We can delete the branch if we want to and create a new branch for every update. If you are working in a team, this move is not advisable, but as an individual, this may help with tidying the commit logs (to prevent pushing different feature updates to unrelated branch name)
 ![Pull-Request-Succeeded](https://raw.githubusercontent.com/RevoU-FSSE-2/week-5-SherinOlivia/documentation/assets/MDimgs/PullRequestSucceeded.webp)
 
-### Part 2: Side Job-Offer-Link and Update on Part 1: Header & Main Banner
-**CDPR's Header, Banner and Side-link**
+### Part 2: Header - Side Fixed-Menu & Update on Part 1
+**Official CDPR's Header, Banner and Side-link**
 ![CDPR's-Header,Banner-&-Side-Job-Offer-Link](https://raw.githubusercontent.com/RevoU-FSSE-2/week-5-SherinOlivia/documentation/assets/MDimgs/CDPROfficialSideJobOfferLink.webp)
-- This is comparably a small update. I managed to create a small fixed menu on the side where there is a link to go to the Job Offer Page.
-- I used a minus value right margin of the 'box' and decreases the minus value on hover. I also used transition to smooth the process.
-`right: -29.8vw` to `right: 0`
-- With the correct image showing, I was able to adjust the image sizes and positions on the page better. Currently closer to the real web, with the only major issue is the unobtainable font (the official website uses paid font)
+A comparably small update for header:
 
-<b>Comparison image:</b><br>
-<b>My Progress:</b>
+- A fixed side button-like menu that shows the link to another page (jobs offer/recruitment page) when hovered.
+- Adjusted the image sizes and positions on header and main banner (the section with the video). 
+
+A *major* issue persists: unobtainable paid-font, *partly solved* by using another font that bears some resemblance.
+
+<b>Progress:</b>
 ![SherinOlivia's-Side-Job-Offer-Link](https://raw.githubusercontent.com/RevoU-FSSE-2/week-5-SherinOlivia/documentation/assets/MDimgs/Part2RooSideJobLink.webp)
 
 ### Part3: Main - Introduction Section
+**Official CDPR's Introduction Section**
 ![CDPR's-introduction-part-of-main](https://raw.githubusercontent.com/RevoU-FSSE-2/week-5-SherinOlivia/documentation/assets/MDimgs/CDPRIntroduction-and-GototopButton.webp)
-For this particular section, there are 2 smaller banners with their respective subtitle and a pair of links that acts like buttons. Under each banner, there are also another subtitle and a paragraph.
 
-Due to the differing layouts/positions for the elements, a div soup (using too many `<div></div>` tags for a specific part of the page) is almost impossible to avoid as a beginner.
+**Introduction Section's distinctive points:**
+1. 2 sections with same layout : image, title, subtitle, button links, and paragraphs
+2. different colour text for half of the subtitles
 
-Nevertheless,  I tried to work around with something like this instead:
- (img: snippet of introduction section in html file) / uses html codes straight away in markdown.
+The official website included the image and all the separate texts/phrases inside multiple `<div></div` and relied heavily on `position: absolute` to customize the css. 
 
-And this is the result :
+Instead, I called the image through `background-image: url()` and included `background-color` & `background-blend-mode` to purely alter the background itself (and not the multiple `<div></div>`tags)
+
+**And this is the result :**
 ![SherinOlivia's-introduction-part-of-main](https://raw.githubusercontent.com/RevoU-FSSE-2/week-5-SherinOlivia/documentation/assets/MDimgs/Part3RooIntroduction-and-gototopbutton.webp)
 
-On top of that, I also fixed the font problem (`@font-face` wasn't working properly) by finding another source file for the same font.
 
-And lastly, I was able to add a button fixed to the bottom right corner, which will lead users back to the top of the page when clicked.
+[Author's Note: included a button fixed to the bottom right corner, which will lead users back to the top of the page when clicked.] 
+
+### Part4: Main - Jobsletter Form & Footer - Content
+**Official CDPR's Jobsletter Form**
+![CDPR's-jobsletter-form-&-StudioLocation](https://raw.githubusercontent.com/RevoU-FSSE-2/week-5-SherinOlivia/main/assets/MDimgs/CDPRJobsletterStudio.webp)
+
+**Jobsletter's distinctive points:**
+1. An Input form for email
+2. A short underline under the form title & caption
+3. A slightly-out-of-page logo on the right side of the form
+
+[Author's Note: the short underline was created using `::after` in css and the logo was set to `position: absolute` to `div` parent tag set with `position:relative` & `div` 'grandparent tag' with `overflow-x: hidden`]
+
+**Footer - Content's distinctive points:**
+1. Images that show the studio's locations 
+2. A short underline under the title & caption
+3. Studio's addresses and cities over the images (with altered brightness for the images)
+
+[Author's Note: Again, I called the images through `background-image: url()` and used `::after` on the tag with the title & caption to create the 'underline']
+
+**Progress:**
+![SherinOlivia's-Jobsletter-form-&-StudioLocation](https://raw.githubusercontent.com/RevoU-FSSE-2/week-5-SherinOlivia/main/assets/MDimgs/RooJobsletterStudiolocation.webp)
+
+
+### Part6: Deployment
+
+
+**Netlify**
+: a web hosting infrastructure and automation technology company
+
+
+**Cloudfare**
+: a company that provides content delivery network services, cloud cybersecurity, DDoS mitigation, and ICANN-accredited domain registration services. 
+
+
+For the deployment process, we will be using Netlify to host our website and Cloudfare to manage the domain because of the SSL/TLS protection provided for free by Cloudfare.
+
+In the previous project, we've configured some settings in Cloudfare, therefore, we only need to link our custom domain to the new deployed site on Netlify.
+
+#### Comprehensive coverage of Purchasing a Custom Domain, Configuring Cloudfare settings, and linking custom domain to netlify-deployed site
+
+##### Purchasing Custom Domain
+
+To purchase a custom domain, we either need a :
+
+- internationally accepted credit card for international domain registrar
+
+or
+
+- m-banking / qris / e-wallet / physical-visit to any partner convenience store for domestic domain registrar.
+
+In this particular tutorial, we are opting for domestic domain registrar, 'Niagahoster'.
+
+Niagahoster 
+: an Indonesian hosting website that provides hosting services for both personal and business needs.
+
+1. First, go to [**Niagahoster.co.id**](www.niagahoster.co.id)
+2. Sign up or login through Facebook or Google account.
+![Niagahoster-SignUp-or-Login](https://raw.githubusercontent.com/RevoU-FSSE-2/week-4-SherinOlivia/main/assets/documentation/niagahosterloginorsignup.webp)
+
+3. Check the availability of any domain name of your liking.
+![Niagahoster-Domainchecking](https://raw.githubusercontent.com/RevoU-FSSE-2/week-4-SherinOlivia/main/assets/documentation/checkdomainname.webp)
+
+4. Purchase the custom domain and pay using your preferred payment method.
+![Niagahoster-DomainPurchase](https://raw.githubusercontent.com/RevoU-FSSE-2/week-4-SherinOlivia/main/assets/documentation/niagahosterpaymentmethod.webp)
+
+5. Wait for the transaction to finish
+
+##### DNS Configuration
+
+Before we deploy the website through Netlify, we will have to configure some settings in Cloudfare. 
+
+To do that,
+1. First, we go to [**cloudfare.com**](https://www.cloudflare.com/)
+
+2. Sign up with your email and verify the account through your email
+![Cloudfare-SignUp](https://raw.githubusercontent.com/RevoU-FSSE-2/week-4-SherinOlivia/main/assets/documentation/loginorsignupcloudfare.webp)
+
+3. On the home page, click 'Add a Site' and enter your 'Custom Domain
+![Cloudfare-AddSite](https://raw.githubusercontent.com/RevoU-FSSE-2/week-4-SherinOlivia/main/assets/documentation/cloudfareaddsite.webp)
+
+4. Click 'Add Site' to confirm
+![Cloudfare-AddSiteConfirm](https://raw.githubusercontent.com/RevoU-FSSE-2/week-4-SherinOlivia/main/assets/documentation/addsiteconfirmationcloudfare.webp)
+
+5. From the subscription plans shown, choose Free Plan option
+![Cloudfare-Freeplan](https://raw.githubusercontent.com/RevoU-FSSE-2/week-4-SherinOlivia/main/assets/documentation/cloudfarefreeplan.webp)
+
+6. Copy the Nameserver shown (We will use them to change the Nameserver in Niagahoster)
+![Cloudfare-Nameserver](https://raw.githubusercontent.com/RevoU-FSSE-2/week-4-SherinOlivia/main/assets/documentation/cloudfarenameserver.webp)
+
+7. Go back to [**Niagahoster.co.id**](www.niagahoster.co.id) and click on your Custom Domain
+
+8. On the Nameserver setting (or in 'Overview Domain'), click change nameserver and paste both nameservers from Cloudfare.
+![Niagahoster-NameserverChange](https://raw.githubusercontent.com/RevoU-FSSE-2/week-4-SherinOlivia/main/assets/documentation/verifyemailandchangenameserver.webp)
+
+9. Wait for Cloudfare to verify this process, you will get an email from Cloudfare when your custom domain is successfully activated on Cloudfare's free plan.
+![Cloudfare-ActiveDomainEmailNotif](https://raw.githubusercontent.com/RevoU-FSSE-2/week-4-SherinOlivia/main/assets/documentation/cloudfareemail.webp)
+
+##### Web Deployment
+
+Now that our custom domain is active, we can go ahead and deploy our website through Netlify.
+
+1. Go to [**app.netlify.com**](https://app.netlify.com/).
+2. Sign up using your preferred account or email, but in this tutorial, We will be using 'Sign Up with Github' method.
+3. Fill out the short survey and set your team's name
+4. Click 'Add new site' and choose 'Import an existing project'
+![Netlify-AddNewSite](https://raw.githubusercontent.com/RevoU-FSSE-2/week-4-SherinOlivia/main/assets/documentation/netlifyimportproject.webp)
+
+5. Choose 'Deploy with Github', on your first time, you will be directed to login to your Github account to authorize the connection
+![Netlify-DeploywithGithub](https://raw.githubusercontent.com/RevoU-FSSE-2/week-4-SherinOlivia/main/assets/documentation/deploywithgithub.webp)
+
+6. Look for the repository of your website. 
+![Netlify-ChooseRepo](https://raw.githubusercontent.com/RevoU-FSSE-2/week-4-SherinOlivia/main/assets/documentation/chooserepotodeploy.webp)
+
+7. Scroll down and click on 'Deploy (repository name)'
+![Netlify-DeployRepoConfirm](https://raw.githubusercontent.com/RevoU-FSSE-2/week-4-SherinOlivia/main/assets/documentation/deploysite.webp)
+
+8. Wait for your website to get deployed (Usually almost instantly)
+9. When your website is successfully deployed, you will get a randomly named website with 'netlify.app' subdomain. 
+![Netlify-DeployedSiteRandomName](https://raw.githubusercontent.com/RevoU-FSSE-2/week-4-SherinOlivia/main/assets/documentation/netlifyrandomnamesite.webp)
+
+10. Click 'Site configuration' -> 'Change site name' to change the website's name.
+![Netlify-DeployedSiteChangeName](https://raw.githubusercontent.com/RevoU-FSSE-2/week-4-SherinOlivia/main/assets/documentation/changesitenamenetlify.webp)
+
+
+
+**We're 75% there!** 
+<p>Now we need to configure the setting so our custom domain will link to our deployed website.<p>
+
+11. Now, click on 'Domain settings' -> 'Add a domain'. 
+![Netlify-DomainSetting](https://raw.githubusercontent.com/RevoU-FSSE-2/week-4-SherinOlivia/main/assets/documentation/addcustomdomainnetlify.webp)
+
+12. Insert your custom domain and click on 'verify'
+![Netlify-TypeCustomDomainIn](https://raw.githubusercontent.com/RevoU-FSSE-2/week-4-SherinOlivia/main/assets/documentation/addcustomdomain_2_.webp)
+
+![Netlify-AddCustomDomainIn](https://raw.githubusercontent.com/RevoU-FSSE-2/week-4-SherinOlivia/main/assets/documentation/addcustomdomain_3_.webp)
+
+13. Next, go back to [**cloudfare.com**](https://www.cloudflare.com/) and click on your custom domain.
+
+14. Click on 'DNS' setting on the left side-bar or under Quick Action on the right side.
+![Cloudfare-DNSSetting](https://raw.githubusercontent.com/RevoU-FSSE-2/week-4-SherinOlivia/main/assets/documentation/wheretofinddnssetting.webp)
+
+15. Click on 'Add record', and insert these:
+- `Type: CNAME, Name: www, Content: (your custom domain i.e roozone.site)`
+- `Type: CNAME, Name: (your custom domain i.e roozone.site), Content: (your netlify website link i.e roozonev2.netlify.app)`
+
+![Cloudfare-DNSRecordManagement](https://raw.githubusercontent.com/RevoU-FSSE-2/week-4-SherinOlivia/main/assets/documentation/dnsrecordmanagement.webp)
+
+<p align="center"><strong>Custom Domain Succesfully linked!!</strong><p>
+
+![Roozone-SuccesfulCustomDomain](https://raw.githubusercontent.com/RevoU-FSSE-2/week-4-SherinOlivia/main/assets/documentation/successfulcustomdomain.webp)
+
+##### Changing Deployed Site to Reuse Custom Domain
+
+To reuse our custom domain, simply head back to [**app.netlify.com**](https://app.netlify.com/) 
+
+- Click on our deployed site with the custom domain
+![Roozone-SitewithCustomDomain](https://raw.githubusercontent.com/RevoU-FSSE-2/week-5-SherinOlivia/main/assets/MDimgs/ChooseDeployedSite.webp)
+- Proceed to remove custom domain
+![Roozone-RemoveCustomDomain](https://raw.githubusercontent.com/RevoU-FSSE-2/week-5-SherinOlivia/main/assets/MDimgs/NetlifyRemoveCustomDomain.webp.webp)
+- Change to new deployed site that we want to link and readd custom domain
+![Roozone-ReaddCustomDomain](https://raw.githubusercontent.com/RevoU-FSSE-2/week-5-SherinOlivia/main/assets/MDimgs/AddCustomDomain1.webp)
+![Roozone-ReaddCustomDomainVerify](https://raw.githubusercontent.com/RevoU-FSSE-2/week-5-SherinOlivia/main/assets/MDimgs/AddCustomDomain2.webp)
+
+- Now, go back to [**cloudfare.com**](https://www.cloudflare.com/)
+- Click on 'DNS' setting on the left side-bar or under Quick Action on the right side.
+![Cloudfare-DNSSetting](https://raw.githubusercontent.com/RevoU-FSSE-2/week-4-SherinOlivia/main/assets/documentation/wheretofinddnssetting.webp)
+- Edit the previously added DNS Record by replacing the previous deployed site with the new one
+![Cloudfare-DNSRecordEdit](https://raw.githubusercontent.com/RevoU-FSSE-2/week-5-SherinOlivia/main/assets/MDimgs/AddNetlifyLinktoCustomSiteDNSRecords.webp)
+
+<p align="center"><strong>Voila!</strong><p>
+
+![Roozone-SuccesfulRelink](https://raw.githubusercontent.com/RevoU-FSSE-2/week-5-SherinOlivia/main/assets/MDimgs/CustomDomainSuccessfullyLinked.webp)
+
+### Contact Me:
+
+![Roo-Gmail1](https://raw.githubusercontent.com/RevoU-FSSE-2/week-4-SherinOlivia/ec070b5a2e4e0ad121706596ada521e0e856af7b/assets/icons/email.svg)  [SOChronicle@gmail.com](mailto:SOChronicle@gmail.com) [Personal]
+
+![Roo-Gmail2](https://raw.githubusercontent.com/RevoU-FSSE-2/week-4-SherinOlivia/ec070b5a2e4e0ad121706596ada521e0e856af7b/assets/icons/email.svg)  [SOlivia@gmail.com](mailto:SOlivia198@gmail.com@gmail.com) [Work]
+
+[![Roo-Discord]()](https://discord.com/users/shxdxr#7539)
+[![Roo-Instagram]()](https://instagram.com/shxdxr?igshid=MzRlODBiNWFlZA==)
+[![Roo-LinkedIn]()](https://www.linkedin.com/in/sherin-olivia-07311127a/)
+
+
