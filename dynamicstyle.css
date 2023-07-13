@@ -198,6 +198,7 @@ footer .footer-content {
     text-align: center;
     padding: 10vh 2vw 5vh;
     margin-top: 5vh;
+    background-color: #f6f6f6;
 }
 
 footer .footer-content .studio-container h3::after, 
@@ -621,13 +622,13 @@ footer .cookie-modal, .catchphrase-modal {
 
     footer .footer-content .studio-container h3::after, 
     footer .footer-content .contact-container h3::after {
-    content: "";
-    width: 45px;
-    background-color: black;
-    display: block;
-    height: 4px;
-    margin: 5px;
-}
+        content: "";
+        width: 45px;
+        background-color: black;
+        display: block;
+        height: 4px;
+        margin: 5px;
+    }
 
 }
 
