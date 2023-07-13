@@ -376,12 +376,12 @@ To reuse our custom domain, simply head back to [**app.netlify.com**](https://ap
 
 ### Contact Me:
 
-![Roo-Gmail1](https://raw.githubusercontent.com/RevoU-FSSE-2/week-4-SherinOlivia/ec070b5a2e4e0ad121706596ada521e0e856af7b/assets/icons/email.svg)  [SOChronicle@gmail.com](mailto:SOChronicle@gmail.com) [Personal]
+<img src="https://github.com/RevoU-FSSE-2/week-5-SherinOlivia/blob/main/assets/MDimgs/icons8-gmail.gif?raw=true" width="15px" background-color="none">[SOChronicle@gmail.com](mailto:SOChronicle@gmail.com) [Personal]
 
-![Roo-Gmail2](https://raw.githubusercontent.com/RevoU-FSSE-2/week-4-SherinOlivia/ec070b5a2e4e0ad121706596ada521e0e856af7b/assets/icons/email.svg)  [SOlivia@gmail.com](mailto:SOlivia198@gmail.com@gmail.com) [Work]
+<img src="https://github.com/RevoU-FSSE-2/week-5-SherinOlivia/blob/main/assets/MDimgs/icons8-gmail.gif?raw=true" width="15px" background-color="none">[SOlivia@gmail.com](mailto:SOlivia198@gmail.com) [Work]
 
-[![Roo-Discord]()](https://discord.com/users/shxdxr#7539)
-[![Roo-Instagram]()](https://instagram.com/shxdxr?igshid=MzRlODBiNWFlZA==)
-[![Roo-LinkedIn]()](https://www.linkedin.com/in/sherin-olivia-07311127a/)
+[![Roo-Discord](https://raw.githubusercontent.com/RevoU-FSSE-2/week-5-SherinOlivia/bddf1eca3ee3ad82db2f228095d01912bf9c3de6/assets/MDimgs/icons8-discord.svg)](https://discord.com/users/shxdxr#7539)
+[![Roo-Instagram](https://raw.githubusercontent.com/RevoU-FSSE-2/week-5-SherinOlivia/bddf1eca3ee3ad82db2f228095d01912bf9c3de6/assets/MDimgs/icons8-instagram.svg)](https://instagram.com/shxdxr?igshid=MzRlODBiNWFlZA==)
+[![Roo-LinkedIn](https://raw.githubusercontent.com/RevoU-FSSE-2/week-5-SherinOlivia/bddf1eca3ee3ad82db2f228095d01912bf9c3de6/assets/MDimgs/icons8-linkedin-circled.svg)](https://www.linkedin.com/in/sherin-olivia-07311127a/)
 
 
