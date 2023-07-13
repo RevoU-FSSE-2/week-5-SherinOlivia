@@ -359,7 +359,7 @@ To reuse our custom domain, simply head back to [**app.netlify.com**](https://ap
 - Click on our deployed site with the custom domain
 ![Roozone-SitewithCustomDomain](https://raw.githubusercontent.com/RevoU-FSSE-2/week-5-SherinOlivia/main/assets/MDimgs/ChooseDeployedSite.webp)
 - Proceed to remove custom domain
-![Roozone-RemoveCustomDomain](https://raw.githubusercontent.com/RevoU-FSSE-2/week-5-SherinOlivia/main/assets/MDimgs/NetlifyRemoveCustomDomain.webp.webp)
+![Roozone-RemoveCustomDomain](https://raw.githubusercontent.com/RevoU-FSSE-2/week-5-SherinOlivia/main/assets/MDimgs/NetlifyRemoveCustomDomain.webp)
 - Change to new deployed site that we want to link and readd custom domain
 ![Roozone-ReaddCustomDomain](https://raw.githubusercontent.com/RevoU-FSSE-2/week-5-SherinOlivia/main/assets/MDimgs/AddCustomDomain1.webp)
 ![Roozone-ReaddCustomDomainVerify](https://raw.githubusercontent.com/RevoU-FSSE-2/week-5-SherinOlivia/main/assets/MDimgs/AddCustomDomain2.webp)
@@ -376,12 +376,10 @@ To reuse our custom domain, simply head back to [**app.netlify.com**](https://ap
 
 ### Contact Me:
 
-<img src="https://github.com/RevoU-FSSE-2/week-5-SherinOlivia/blob/main/assets/MDimgs/icons8-gmail.gif?raw=true" width="15px" background-color="none">[SOChronicle@gmail.com](mailto:SOChronicle@gmail.com) [Personal]
+<img src="https://raw.githubusercontent.com/RevoU-FSSE-2/week-5-SherinOlivia/6864c7417c08892bdff3606f0cc3a9278884b308/assets/MDimgs/icons8-gmail.svg" width="15px" background-color="none">[SOChronicle@gmail.com](mailto:SOChronicle@gmail.com) [Personal]
 
-<img src="https://github.com/RevoU-FSSE-2/week-5-SherinOlivia/blob/main/assets/MDimgs/icons8-gmail.gif?raw=true" width="15px" background-color="none">[SOlivia@gmail.com](mailto:SOlivia198@gmail.com) [Work]
+<img src="https://raw.githubusercontent.com/RevoU-FSSE-2/week-5-SherinOlivia/6864c7417c08892bdff3606f0cc3a9278884b308/assets/MDimgs/icons8-gmail.svg" width="15px" background-color="none">[SOlivia@gmail.com](mailto:SOlivia198@gmail.com) [Work]
 
-[![Roo-Discord](https://raw.githubusercontent.com/RevoU-FSSE-2/week-5-SherinOlivia/bddf1eca3ee3ad82db2f228095d01912bf9c3de6/assets/MDimgs/icons8-discord.svg)](https://discord.com/users/shxdxr#7539)
-[![Roo-Instagram](https://raw.githubusercontent.com/RevoU-FSSE-2/week-5-SherinOlivia/bddf1eca3ee3ad82db2f228095d01912bf9c3de6/assets/MDimgs/icons8-instagram.svg)](https://instagram.com/shxdxr?igshid=MzRlODBiNWFlZA==)
-[![Roo-LinkedIn](https://raw.githubusercontent.com/RevoU-FSSE-2/week-5-SherinOlivia/bddf1eca3ee3ad82db2f228095d01912bf9c3de6/assets/MDimgs/icons8-linkedin-circled.svg)](https://www.linkedin.com/in/sherin-olivia-07311127a/)
+[![Roo-Discord](https://raw.githubusercontent.com/RevoU-FSSE-2/week-5-SherinOlivia/bddf1eca3ee3ad82db2f228095d01912bf9c3de6/assets/MDimgs/icons8-discord.svg)](https://discord.com/users/shxdxr#7539) [![Roo-Instagram](https://raw.githubusercontent.com/RevoU-FSSE-2/week-5-SherinOlivia/bddf1eca3ee3ad82db2f228095d01912bf9c3de6/assets/MDimgs/icons8-instagram.svg)](https://instagram.com/shxdxr?igshid=MzRlODBiNWFlZA==) [![Roo-LinkedIn](https://raw.githubusercontent.com/RevoU-FSSE-2/week-5-SherinOlivia/bddf1eca3ee3ad82db2f228095d01912bf9c3de6/assets/MDimgs/icons8-linkedin-circled.svg)](https://www.linkedin.com/in/sherin-olivia-07311127a/)
 
 
