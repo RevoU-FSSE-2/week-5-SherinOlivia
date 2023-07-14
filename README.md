@@ -56,6 +56,7 @@ An empty repository only has an empty `readme.md` file in it. Once we start on a
 
 ### How to Run This Project
 1. First, copy the repository link.
+
 ![Copying-Repository-Link](https://raw.githubusercontent.com/RevoU-FSSE-2/week-5-SherinOlivia/documentation/assets/MDimgs/Copyingrepolink.webp)
 
 
