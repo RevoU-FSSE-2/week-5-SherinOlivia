@@ -29,6 +29,8 @@ The Main Focus for the project are:
 <a href="https://www.roozone.site/">www.roozone.site</a>
 </p>
 
+![PageSpeed-Result](https://raw.githubusercontent.com/RevoU-FSSE-2/week-5-SherinOlivia/documentation/assets/MDimgs/PageSpeed-CDProojektred.webp)
+
 ## Pre-development Stage
 
 ### Terminal, VS Code, and Github
