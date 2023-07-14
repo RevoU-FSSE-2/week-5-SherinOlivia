@@ -1,4 +1,4 @@
-git ad# Week 5 : Project Milestone 1
+# Week 5 : Project Milestone 1
 
 For the 1st Milestone Project, we are to make a company profile website using everything we've learned so far about HTML and CSS.
 
