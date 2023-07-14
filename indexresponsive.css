@@ -1,11 +1,11 @@
-@media screen and (min-width: 375px) { 
+/* @media screen and (min-width: 375px) { 
     main .introduction-container {
         gap: 1vw;
         width: 100%;
         padding-top: 25vh;
     }
 
-}
+} */
 
 @media screen and (min-width: 768px) {
     :root {
@@ -27,7 +27,7 @@
         flex-direction: row;
         gap: 1vw;
         width: 100%;
-        padding: 25vh 2vw 2vh;
+        padding: 10vh 2vw 2vh;
         margin-top: 3vh;
     }
 
@@ -68,7 +68,8 @@
 
     main .jobsletter-container {
         padding: 7.5vh 0vw 8vh;
-        margin: 2vw;
+        margin: 4vw;
+        width: 92.5%;
     }
 
     main .jobsletter-container .jobsletter-form input {
@@ -103,14 +104,16 @@
     }
 
     .change-img {
+        display: flex;
         width: 30.5vw;
-        height: 18vh;
-        padding-top: 4vh;
-        padding-left: 3vw;
+        height: 10vh;
+        left: -2vw;
+        position: relative;
+        margin-right: 10vw;
     }
 
     main .banner video {
-        top: 18vh;
+        top: 10vh;
     }
 
     main .introduction-container .introduction-banner {
@@ -180,8 +183,12 @@
     }
 
     .change-img {
-        width: 25.5vw;
-        height: 12vh;
+        width: 21.5vw;
+        height: 20vh;
+        top: -2vh;
+        left: 2vw;
+        margin-right: 10vw;
     }
+
 
 }

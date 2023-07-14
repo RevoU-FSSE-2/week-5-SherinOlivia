@@ -8,7 +8,7 @@ const header = `
             </a>
         </div>
         <div class="nav-pages-header">
-            <a href="about.html">About Us</a>
+            <a href="about/about.html">About Us</a>
             <a href="games.html">Our Games</a>
             <div class="dropdown">
                 <a href="jobs.html" class="careers-dropdown">Careers</a>
@@ -54,24 +54,24 @@ const header = `
     </section>
 
     <section class="socmed-nav">
-        <a href="https://www.facebook.com/CDPROJEKTRED/" target="_blank">
+        <a href="https://www.facebook.com/CDPROJEKTRED/" target="_blank" aria-label="CDPR Official Facebook Link">
             <svg xmlns="http://www.w3.org/2000/svg" width="8.47" height="14.5" viewBox="0 0 8.47 15.814">
                 <path id="facebook-f" d="M30.8,8.9l.439-2.862H28.5V4.176A1.431,1.431,0,0,1,30.111,2.63H31.36V.193A15.224,15.224,0,0,0,29.144,0,3.494,3.494,0,0,0,25.4,3.852V6.033H22.89V8.9H25.4v6.919H28.5V8.9Z" 
                 transform="translate(-22.89)" fill="#fff" opacity="0.35" />
             </svg>
         </a>
-        <a href="https://www.linkedin.com/company/cd-projekt-red/" target="_blank">
+        <a href="https://www.linkedin.com/company/cd-projekt-red/" target="_blank" aria-label="CDPR Official LinkedIn Link">
             <svg xmlns="http://www.w3.org/2000/svg" width="13.813" height="14.5" viewBox="0 0 13.813 13.813">
                 <path id="linkedin-in" d="M3.092,13.823H.228V4.6H3.092ZM1.659,3.343A1.666,1.666,0,1,1,3.317,1.669,1.673,1.673,0,0,1,1.659,3.343ZM13.81,13.823H10.953V9.334c0-1.07-.022-2.442-1.489-2.442-1.489,0-1.717,1.162-1.717,2.365v4.566H4.886V4.6H7.633V5.859h.04a3.009,3.009,0,0,1,2.71-1.489c2.9,0,3.431,1.909,3.431,4.388v5.066Z" 
                 transform="translate(0 -0.01)" fill="#fff" opacity="0.35" />
             </svg>
         </a>
-        <a href="https://twitter.com/cdprojektred" target="_blank">
+        <a href="https://twitter.com/cdprojektred" target="_blank" aria-label="CDPR Official Twitter Link">
         <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="#fff" opacity="0.35" class="bi bi-twitter" viewBox="0 0 16 16">
             <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
         </svg>
         </a>
-        <a href="https://www.youtube.com/user/CDPRED" target="_blank">
+        <a href="https://www.youtube.com/user/CDPRED" target="_blank" aria-label="CDPR Official Youtube Link">
             <svg xmlns="http://www.w3.org/2000/svg" width="15" height="11.838" viewBox="0 0 16.821 11.838">
                 <path id="XMLID_823_" d="M16.166,46.933c-.607-.722-1.728-1.016-3.869-1.016H4.525c-2.19,0-3.33.313-3.935
                 1.082C0,47.748,0,48.852,0,50.38v2.912c0,2.96.7,4.463,4.525,4.463H12.3c1.857,0,2.885-.26
@@ -80,7 +80,7 @@ const header = `
                 transform="translate(0 -45.917)" fill="#fff" opacity="0.35" />
             </svg>
         </a>
-        <a href="https://www.instagram.com/cdpred/" target="_blank">
+        <a href="https://www.instagram.com/cdpred/" target="_blank" aria-label="CDPR Official Instagram Link">
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="13" fill="#fff" opacity="0.35" viewBox="0 0 16 16">
                 <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927
                 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174
@@ -98,18 +98,18 @@ const header = `
                 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
             </svg>
         </a>
-        <a href="https://www.tiktok.com/@cdprojektred" target="_blank">
+        <a href="https://www.tiktok.com/@cdprojektred" target="_blank" aria-label="CDPR Official Tiktok Link">
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="12" fill="#fff" opacity="0.35" viewBox="0 0 16 16">
                 <path d="M9 0h1.98c.144.715.54 1.617 1.235 2.512C12.895 3.389 13.797 4 15 4v2c-1.753 0-3.07-.814-4-1.829V11a5 5 0 1 1-5-5v2a3 3 0 1 0 3 3V0Z"/>
             </svg>
         </a>
-        <a href="https://www.twitch.tv/cdprojektred" target="_blank">
+        <a href="https://www.twitch.tv/cdprojektred" target="_blank" aria-label="CDPR Official Twitch Link">
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="13" fill="#fff" opacity="0.35" class="bi bi-twitch" viewBox="0 0 16 16">
                 <path d="M3.857 0 1 2.857v10.286h3.429V16l2.857-2.857H9.57L14.714 8V0H3.857zm9.714 7.429-2.285 2.285H9l-2 2v-2H4.429V1.143h9.142v6.286z"/>
                 <path d="M11.857 3.143h-1.143V6.57h1.143V3.143zm-3.143 0H7.571V6.57h1.143V3.143z"/>
             </svg>
         </a>
-        <a href="https://www.glassdoor.com/Overview/Working-at-CD-PROJEKT-RED-EI_IE644250.11,25.htm" target="_blank">
+        <a href="https://www.glassdoor.com/Overview/Working-at-CD-PROJEKT-RED-EI_IE644250.11,25.htm" target="_blank" aria-label="CDPR Official glassdoor Link">
             <svg xmlns="http://www.w3.org/2000/svg" width="11.826" height="13.5" viewBox="0 0 11.826 16.557">
                 <path id="glassdoor-svgrepo-com" d="M12.89,14.192H3.43a2.364,2.364,0,0,0,2.363,2.365h7.1a2.365,2.365,0,0,0
                 2.365-2.365V4.479a.085.085,0,0,0-.086-.086H12.975a.086.086,0,0,0-.085.087v9.713ZM12.89,0a2.366,2.366,0,0,1
