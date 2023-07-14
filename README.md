@@ -1,5 +1,4 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/f6dTnkNL)
-# Week 5 : Project Milestone 1
+git ad# Week 5 : Project Milestone 1
 
 For the 1st Milestone Project, we are to make a company profile website using everything we've learned so far about HTML and CSS.
 
@@ -53,27 +52,26 @@ Github repository contains all of our project's files and their respective revis
 
 An empty repository only has an empty `readme.md` file in it. Once we start on a project, it's a commonly advised practice to create branches, either for each individual to use or for each task to be worked on.
 
-### Accepted the assignment, what's next?
-The first and foremost thing to do after accepting a task is to clone the Github repository to our device's local storage. This  is where Terminal's role comes in.
-
-
+### How to Run This Project
 1. First, copy the repository link.
 ![Copying-Repository-Link](https://raw.githubusercontent.com/RevoU-FSSE-2/week-5-SherinOlivia/documentation/assets/MDimgs/Copyingrepolink.webp)
 
 
 2. Then, open the terminal of your choice. 
-Be especially aware that `git clone` will directly clone the repository into the directory you're currently in (i.e if your position is currently in desktop, your repository folder will be cloned to desktop.) 
-To prevent cloning into the wrong directory, use this command to check: `cd`
-- You may also use `cd` to change directory, i.e `cd e:`
-- Once you're in the right directory, proceed to clone the repository::
- `git clone (insert the copied repository link)` 
-i.e `git clone https://github.com/RevoU-FSSE-2/week-5-SherinOlivia.git`
+- Command to check directory: `cd`
+- Command to change directory: `cd e:`
+- Clone to current directory:
+ `git clone https://github.com/RevoU-FSSE-2/week-5-SherinOlivia.git`
 
-3. Next, using the same terminal, we can go ahead and move into the repository folder to create the needed files or folders for the development process
-- to create new folder, use `mkdir folder-name` i.e `mkdir assets`
-- to create new file, use `touch file-name` i.e `touch index.html`, `touch style.css`, `touch responsive.css`
+3. If needed, make or remove folders / files :
+- to create new folder: `mkdir folder-name` i.e `mkdir new-folder`
+- to create new file: `touch file-name` i.e `touch newfile.html`
+- to delete folder/file: `rm newfile.html`
 
 4. Once set, use `code .` to open the project in VS Code. 
+
+**Succesful Clone:**
+![Gitcloned](https://raw.githubusercontent.com/RevoU-FSSE-2/week-5-SherinOlivia/main/assets/MDimgs/Gitcloned.webp)
 
 ### Dive straight into VS Code? Really?
 
@@ -352,7 +350,7 @@ Now that our custom domain is active, we can go ahead and deploy our website thr
 
 ![Roozone-SuccesfulCustomDomain](https://raw.githubusercontent.com/RevoU-FSSE-2/week-4-SherinOlivia/main/assets/documentation/successfulcustomdomain.webp)
 
-##### Changing Deployed Site to Reuse Custom Domain
+#### Changing Deployed Site to Reuse Custom Domain
 
 To reuse our custom domain, simply head back to [**app.netlify.com**](https://app.netlify.com/) 
 
@@ -378,7 +376,7 @@ To reuse our custom domain, simply head back to [**app.netlify.com**](https://ap
 
 <img src="https://raw.githubusercontent.com/RevoU-FSSE-2/week-5-SherinOlivia/6864c7417c08892bdff3606f0cc3a9278884b308/assets/MDimgs/icons8-gmail.svg" width="15px" background-color="none">[SOChronicle@gmail.com](mailto:SOChronicle@gmail.com) [Personal]
 
-<img src="https://raw.githubusercontent.com/RevoU-FSSE-2/week-5-SherinOlivia/6864c7417c08892bdff3606f0cc3a9278884b308/assets/MDimgs/icons8-gmail.svg" width="15px" background-color="none">[SOlivia@gmail.com](mailto:SOlivia198@gmail.com) [Work]
+<img src="https://raw.githubusercontent.com/RevoU-FSSE-2/week-5-SherinOlivia/6864c7417c08892bdff3606f0cc3a9278884b308/assets/MDimgs/icons8-gmail.svg" width="15px" background-color="none">[SOlivia198@gmail.com](mailto:SOlivia198@gmail.com) [Work]
 
 [![Roo-Discord](https://raw.githubusercontent.com/RevoU-FSSE-2/week-5-SherinOlivia/bddf1eca3ee3ad82db2f228095d01912bf9c3de6/assets/MDimgs/icons8-discord.svg)](https://discord.com/users/shxdxr#7539) [![Roo-Instagram](https://raw.githubusercontent.com/RevoU-FSSE-2/week-5-SherinOlivia/bddf1eca3ee3ad82db2f228095d01912bf9c3de6/assets/MDimgs/icons8-instagram.svg)](https://instagram.com/shxdxr?igshid=MzRlODBiNWFlZA==) [![Roo-LinkedIn](https://raw.githubusercontent.com/RevoU-FSSE-2/week-5-SherinOlivia/bddf1eca3ee3ad82db2f228095d01912bf9c3de6/assets/MDimgs/icons8-linkedin-circled.svg)](https://www.linkedin.com/in/sherin-olivia-07311127a/)
 
