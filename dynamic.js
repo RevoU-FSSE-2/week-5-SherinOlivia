@@ -25,7 +25,7 @@ const header = `
         </div>
 
         <section class="hamburger-btn">
-            <button id="hamburgerBtn" name="Hamburger Button for Navigation">
+            <button id="hamburgerBtn" aria-label="Hamburger Button for Navigation">
                 <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="#fff" 
                 opacity="0.5" class="bi bi-list" viewBox="0 0 16 16">
                     <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0
