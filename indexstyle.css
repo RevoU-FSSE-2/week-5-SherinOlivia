@@ -43,6 +43,7 @@ body h3 {
     font-family: "Metropolis Bold";
     font-weight: 600;
     font-size: calc(var(--introduction-font-size) / 2);
+    margin-left: 1vw;
 }
 
 body .red-text {
@@ -77,7 +78,7 @@ body .red-button:hover {
     content: url(assets/CDPRlogodark.svg);
     width: 60vw;
     height: 65px;
-    padding: 0 1vw;
+    /* padding: 0 1vw; */
     margin-left: -10px;
 }
 
@@ -88,7 +89,7 @@ main .banner {
     align-items: center;
     font-size: var(--banner-text-font-size);
     gap: 2vh;
-    padding: 7vh 2vw;
+    padding: 7.5vh 2vw;
 }
 
 main .banner img {
@@ -116,7 +117,7 @@ main .banner .banner-intro h1 {
 }
 
 main .banner video {
-    top: 18vh;
+    top: 0vh;
     left: 0;
     position: absolute;
     width: 100%;
@@ -139,7 +140,7 @@ main .banner .down-arrow img {
 }
 
 main .introduction-container {
-    padding: 20vh 4vw 5vh;
+    padding: 5vh 4vw 5vh;
 }
 
 main .introduction-container .left-introduction-container .left-introduction {
@@ -229,6 +230,7 @@ main .jobsletter-container {
     justify-content: space-between;
     align-content: center;
     text-align: center;
+    width: 90%;
 }
 
 main .jobsletter-container h2 {

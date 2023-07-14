@@ -53,6 +53,7 @@ header .logo-and-navbar img {
 
 header .hamburger-btn {
     height: 47px;
+    /* transition: 1.4s ease; */
 }
 
 button#hamburgerBtn {
@@ -76,9 +77,10 @@ header .nav-pages {
     position: absolute;
     left: 0;
     width: 100%;
-    height: 10%;
+    height: 15%;
+    gap: 2vh;
+    padding: 1.5vh;
     margin-top: -5px;
-    transition: 0.5s ease;
     line-height: 2.5vh;
     opacity: 0.9;
     box-shadow: 1px 1px 1px black;
@@ -93,7 +95,8 @@ header .nav-pages a {
 header .dropdown-content {
     width: 100%;
     height: 5vh;
-    transition: linear 0.5s ease;
+    left: 0;
+    transition: 0.5s ease;
     position: absolute;
 }
 
@@ -115,19 +118,16 @@ header .nav-pages .dropdown::after {
     filter: invert(90%);
 }
 
-header .socmed-nav a svg {
-    height: 1.8vh;
-    width: 3.25vw;
-}
-
-header .socmed-nav {
+header .socmed-nav,
+footer .socmed-nav {
     display: flex;
     justify-content: center;
     padding-top: 5.5vw;
     gap: 2vw;
 }
 
-header .socmed-nav a {
+header .socmed-nav a, 
+footer .socmed-nav a {
     display: flex;
     border: 1px solid var(--primary-red-color);
     border-radius: 20px;
@@ -136,6 +136,20 @@ header .socmed-nav a {
     align-content: center;
     justify-content: center;
     align-items: center;
+}
+
+header .socmed-nav a svg, 
+footer .socmed-nav a svg {
+    height: 1.8vh;
+    width: 3.25vw;
+    color: #fff;
+    opacity: 0.35;
+}
+
+header .socmed-nav a svg:hover, 
+footer .socmed-nav a svg:hover {
+    color: var(--primary-red-color);
+    opacity: 1;
 }
 
 header .side-job-offer {
@@ -307,8 +321,8 @@ footer .footer-nav {
     justify-content: center;
     align-items: center;
     color: rgba(255, 255, 255, 0.3);
-    gap: 2vh;
-    padding: 2.5vh 0 5vh;
+    gap: 1vh;
+    padding: 2.5vh 0 1vh;
 }
 
 footer .footer-nav ul {
@@ -321,7 +335,7 @@ footer .footer-nav ul {
     /* padding-top: 3vh; */
     /* column-gap: 0.5vw; */
     width: 100vw;
-    margin: 2.5vh auto 2vh;
+    margin: 2vh auto 1vh;
     text-align: center;
     padding-inline-start: 0;
     padding: 0 5vw;
@@ -331,23 +345,6 @@ footer .footer-nav ul li a:any-link {
     color: var(--white-text-color);
 }
 
-footer .socmed-nav {
-    display: flex;
-    justify-content: center;
-    padding-top: 7.5vw;
-    gap: 2vw;
-}
-
-footer .socmed-nav a {
-    display: flex;
-    border: 1px solid var(--primary-red-color);
-    border-radius: 20px;
-    height: 25px;
-    width: 25px;
-    align-content: center;
-    justify-content: center;
-    align-items: center;
-}
 
 footer .footer-nav span {
     display: flex;
@@ -505,6 +502,9 @@ footer .cookie-modal, .catchphrase-modal {
         gap: 2vw;
     }
 
+    .cookie-modal-content .cookie-modal-text, .catchphrase-modal-content .catchphrase-modal-text {
+        font-size: calc(var(--footer-sub-font-size)/1.25);
+      }
     
 }
 
@@ -512,7 +512,6 @@ footer .cookie-modal, .catchphrase-modal {
 
     :root {
         --header-text-color: #fff;
-
     }
 
     .header-container {
@@ -532,7 +531,7 @@ footer .cookie-modal, .catchphrase-modal {
         display: flex;
         justify-content: space-evenly;
         align-items: center;
-        gap: 3.5vw;
+        gap: 2.5vw;
         padding-right: 3.5vw;
         font-size: var(--primary-text-font-size);
         z-index: 5;
@@ -566,7 +565,7 @@ footer .cookie-modal, .catchphrase-modal {
         padding: 2.5vw 2.5vw 2.5vw 2vw;
         line-height: 2vw;
         font-size: var(--primary-text-font-size);
-        /* transition: background-color .2s ease-in-out; */
+        transition: 0.5s ease;
     }
 
     header .hamburger-btn {
@@ -630,6 +629,24 @@ footer .cookie-modal, .catchphrase-modal {
         margin: 5px;
     }
 
+    footer .footer-nav-list {
+        height: 3vh;
+    }
+    
+    footer .footer-nav ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+        /* height: 12vh; */
+        /* left: -15vw; */
+        /* padding-top: 3vh; */
+        /* column-gap: 0.5vw; */
+        width: 100%;
+        margin: 2.5vh auto 2vh;
+        text-align: center;
+        padding: 0 5vw;
+    }
 }
 
 @media screen and (min-width: 1440px) {
@@ -643,15 +660,35 @@ footer .cookie-modal, .catchphrase-modal {
         flex-direction: row;
         flex-wrap: nowrap;
         justify-content: space-evenly;
-        padding: 3vw 2vw;
+        align-items: center;
+        padding: 3vh;
     }
+
 
     header .logo-and-navbar {
         padding: 0;
     }
     
+    header .logo-and-navbar .header-logo img {
+        top: -5vh;
+    }
+
     header .socmed-nav {
         padding: 0;
         gap: 1vw;
+        margin-left: 5vw;
     }
+
+    footer .footer-content .studio-container {
+        width: 80%;
+    }
+
+    .cookie-modal-content, .catchphrase-modal-content {
+        height: 80vh;
+      }
+
+    .cookie-modal-content .cookie-modal-text, .catchphrase-modal-content .catchphrase-modal-text {
+        font-size: var(--footer-sub-font-size);
+        text-align: justify;
+      }
 }
