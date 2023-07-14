@@ -7,7 +7,6 @@ hamburgerBtn.addEventListener('click', function(){
 })
 
 
-
 // Cookie Modal:
 let cookieModal = document.getElementById("cookieModal");
 let openCookie = document.getElementById("cookieDeclaration");

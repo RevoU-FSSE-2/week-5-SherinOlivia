@@ -118,19 +118,16 @@ header .nav-pages .dropdown::after {
     filter: invert(90%);
 }
 
-header .socmed-nav a svg {
-    height: 1.8vh;
-    width: 3.25vw;
-}
-
-header .socmed-nav {
+header .socmed-nav,
+footer .socmed-nav {
     display: flex;
     justify-content: center;
     padding-top: 5.5vw;
     gap: 2vw;
 }
 
-header .socmed-nav a {
+header .socmed-nav a, 
+footer .socmed-nav a {
     display: flex;
     border: 1px solid var(--primary-red-color);
     border-radius: 20px;
@@ -139,6 +136,20 @@ header .socmed-nav a {
     align-content: center;
     justify-content: center;
     align-items: center;
+}
+
+header .socmed-nav a svg, 
+footer .socmed-nav a svg {
+    height: 1.8vh;
+    width: 3.25vw;
+    color: #fff;
+    opacity: 0.35;
+}
+
+header .socmed-nav a svg:hover, 
+footer .socmed-nav a svg:hover {
+    color: var(--primary-red-color);
+    opacity: 1;
 }
 
 header .side-job-offer {
@@ -334,23 +345,6 @@ footer .footer-nav ul li a:any-link {
     color: var(--white-text-color);
 }
 
-footer .socmed-nav {
-    display: flex;
-    justify-content: center;
-    padding-top: 5.5vw;
-    gap: 2vw;
-}
-
-footer .socmed-nav a {
-    display: flex;
-    border: 1px solid var(--primary-red-color);
-    border-radius: 20px;
-    height: 25px;
-    width: 25px;
-    align-content: center;
-    justify-content: center;
-    align-items: center;
-}
 
 footer .footer-nav span {
     display: flex;
@@ -508,6 +502,9 @@ footer .cookie-modal, .catchphrase-modal {
         gap: 2vw;
     }
 
+    .cookie-modal-content .cookie-modal-text, .catchphrase-modal-content .catchphrase-modal-text {
+        font-size: calc(var(--footer-sub-font-size)/1.25);
+      }
     
 }
 
@@ -515,7 +512,6 @@ footer .cookie-modal, .catchphrase-modal {
 
     :root {
         --header-text-color: #fff;
-
     }
 
     .header-container {
@@ -686,4 +682,13 @@ footer .cookie-modal, .catchphrase-modal {
     footer .footer-content .studio-container {
         width: 80%;
     }
+
+    .cookie-modal-content, .catchphrase-modal-content {
+        height: 80vh;
+      }
+
+    .cookie-modal-content .cookie-modal-text, .catchphrase-modal-content .catchphrase-modal-text {
+        font-size: var(--footer-sub-font-size);
+        text-align: justify;
+      }
 }
