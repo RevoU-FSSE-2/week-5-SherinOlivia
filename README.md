@@ -185,7 +185,7 @@ A *major* issue persists: unobtainable paid-font, *partly solved* by using anoth
 <b>Progress:</b>
 ![SherinOlivia's-Side-Job-Offer-Link](https://raw.githubusercontent.com/RevoU-FSSE-2/week-5-SherinOlivia/documentation/assets/MDimgs/Part2RooSideJobLink.webp)
 
-### Part3: Main - Introduction Section
+### Part 3: Main - Introduction Section
 **Official CDPR's Introduction Section**
 ![CDPR's-introduction-part-of-main](https://raw.githubusercontent.com/RevoU-FSSE-2/week-5-SherinOlivia/documentation/assets/MDimgs/CDPRIntroduction-and-GototopButton.webp)
 
@@ -203,7 +203,7 @@ Instead, I called the image through `background-image: url()` and included `back
 
 [Author's Note: included a button fixed to the bottom right corner, which will lead users back to the top of the page when clicked.] 
 
-### Part4: Main - Jobsletter Form & Footer - Content
+### Part 4: Main - Jobsletter Form & Footer - Content
 **Official CDPR's Jobsletter Form**
 ![CDPR's-jobsletter-form-&-StudioLocation](https://raw.githubusercontent.com/RevoU-FSSE-2/week-5-SherinOlivia/main/assets/MDimgs/CDPRJobsletterStudio.webp)
 
@@ -225,7 +225,7 @@ Instead, I called the image through `background-image: url()` and included `back
 ![SherinOlivia's-Jobsletter-form-&-StudioLocation](https://raw.githubusercontent.com/RevoU-FSSE-2/week-5-SherinOlivia/main/assets/MDimgs/RooJobsletterStudiolocation.webp)
 
 
-### Part6: Deployment
+### Part 5: Deployment
 
 
 **Netlify**
